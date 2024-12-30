@@ -4,3 +4,12 @@
 Assignment 1: 
 create a Employee class with two variables empid and empname 
 and display 5 employee details.
+
+Assignment 2:
+================
+Create calculator1 class and create 4 methods as instance method and 
+perform operation and print result
+
+Create calculator2 class and create 4 methods as static method and 
+perform operation and print result
+
