@@ -47,6 +47,39 @@ static block
 It is used to initialize static variable 
 first priority to static block
 
+========================================================
+31-12-2024
+=================
+Type Casting
+=================
+One data type we convert into other data type
+
+1.Primitive to primitive
+----------------------------
+	1.Implicit
+	2.Explicit
+	
+	
+Implicit(Automatic conversion taken care by JVM)
+-----------------------------------------------------
+small size---->large size
+
+byte--->short--->int--->long--->float-->double
+
+Explicit(Manual conversion)here we use casting operator
+-----------------------------------------------------------
+large size--->small size 
+
+
+
+
+ 	
+
+
+
+
+
+
 
 
 
