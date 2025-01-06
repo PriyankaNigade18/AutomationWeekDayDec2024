@@ -13,3 +13,10 @@ perform operation and print result
 Create calculator2 class and create 4 methods as static method and 
 perform operation and print result
 
+
+Assignment 3:
+=====================
+Create a logic for runtime parameter passing for methods
+add(),sub(),mul(),div(),mod() try with and without return
+
+
