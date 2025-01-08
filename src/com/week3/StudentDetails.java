@@ -11,6 +11,11 @@ public class StudentDetails
 		name=n;
 	}
 	
+	StudentDetails()
+	{
+		System.out.println("This is Student default constructor");
+	}
+	
 	public void display()
 	{
 		System.out.println(id);
