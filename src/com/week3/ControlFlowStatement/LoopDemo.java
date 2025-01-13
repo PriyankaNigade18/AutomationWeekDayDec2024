@@ -1,5 +1,7 @@
 package com.week3.ControlFlowStatement;
 
+import java.util.Scanner;
+
 public class LoopDemo {
 
 	public static void main(String[] args) throws InterruptedException
@@ -56,6 +58,91 @@ public class LoopDemo {
 				System.out.println("Even number: "+i);
 			}
 		}
+		System.out.println("*******************************");
+		
+		//while loop
+		
+		//print hello statement 10 
+		
+		int i=1;
+		while(i<=10)
+		{
+			System.out.println("Hello");
+			i++;
+		}
+		System.out.println("*********************");
+		//sum of digit num=123 result=6
+		
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a number");
+		int num=sc.nextInt();
+		
+		int rem,res=0;
+		
+		while(num!=0)
+		{
+			rem=num%10;
+			num=num/10;
+			res=res+rem;
+		}
+		
+		System.out.println("Sum of digits : "+res);
+		
+		System.out.println("*****************************");
+		
+		int n=1234,r,rev=0;
+		
+		while(n>0)
+		{
+			r=n%10;
+			n=n/10;
+			rev=rev*10+r;
+		}
+		
+		System.out.println("Reverse of 1234 is: "+rev);
+		
+		System.out.println("**************************");
+		
+		//do while
+		
+		int x=1;
+		
+		do 
+		{
+			System.out.println("Welcome");
+			x++;
+			
+		}while(x<=10);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
