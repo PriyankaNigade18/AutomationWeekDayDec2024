@@ -46,6 +46,11 @@ public class Array1DDemo {
 		{
 			System.out.println(sid[i]);
 		}
+		System.out.println("*****Iteration Using for-each loop***********");
+		for(int i:sid)
+		{
+			System.out.println(i);
+		}
 		
 		System.out.println("*******************************************");
 		
@@ -60,6 +65,11 @@ public class Array1DDemo {
 		for(int i=0;i<marks.length;i++)
 		{
 			System.out.println(marks[i]);
+		}
+		System.out.println("*****Iteration Using for-each loop***********");
+		for(double i:marks)
+		{
+			System.out.println(i);
 		}
 		
 		System.out.println("*********************************");
@@ -78,7 +88,12 @@ public class Array1DDemo {
 			}
 		}
 		
-		
+		System.out.println("*****Iteration Using for-each loop***********");
+
+		for(String i:loc)
+		{
+			System.out.println(i);
+		}
 		
 		
 		
