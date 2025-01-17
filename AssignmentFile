@@ -63,6 +63,23 @@ Display length of array
 and perform addition of both the array and store result into third arrays
 and display that sum of two array.
 
+2.Create an array arr[]={-9,10,20,-30,45,90};
+print for positive value amount credited=amount
+Print for negative value amount debited=amount
+calculate total balance.
+
+
+3. String locations[]={"Pune","Mumbai","Nashik","Satara"};
+Print number of words from array
+
+4.String act="Selenium Webdriver is Webui automation library"
+Write a java code to calculate total number of words: 6
+
+
+
+
+
+
 
 
 
