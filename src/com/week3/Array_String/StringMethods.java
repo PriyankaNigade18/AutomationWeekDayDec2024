@@ -84,6 +84,160 @@ System.out.println("Actual string ends with lib?: "+act.endsWith("lib"));//false
 	 * 
 	 */
 	
+	//to return single character-charAt(index)
+	
+	String s5="webtesting";
+	System.out.println("character at 4th position: "+s5.charAt(4));//e
+	
+	//indexOf(): returns index of first occurrence of character
+	System.out.println("index of first Occurrence character e: "+s5.indexOf('e'));//1
+	
+	//lastIndexOf():returns index of last occurrence of character
+	System.out.println("index of last Occurrence character e: "+s5.lastIndexOf('e'));//4
+	
+
+	/*isBlank():Returns true if the string is empty or contains only white space codepoints,otherwise false.
+	and isEmpty():if lenght is 0
+	*/
+	String s6=" ";
+	System.out.println(s6.length());
+	System.out.println("Is String Empty?: "+s6.isEmpty());//false/true
+	System.out.println("Is string blank?: "+s6.isBlank());//true/true
+	
+	
+	//substring()
+	String test="TestNG is unit testing test framework";
+	System.out.println(test.substring(5));
+	System.out.println(test.substring(7,16));//7th char to 15th char
+	
+	//replace
+	System.out.println(test.replace('i','*'));
+	System.out.println(test.replace("test","softwaretest"));
+	
+	
+	//split(regular expression): pattern
+	String tools="selenium,Jmeter,Appium,Postman,Cypress";
+	System.out.println(tools);
+	
+	String arr[]=tools.split(",");
+	for(String i:arr)
+	{
+		System.out.println(i);
+	}
+	
+	//only single element
+	String apiTool=tools.split(",")[3];
+	System.out.println("Api testing tool: "+apiTool);
+	
+	String date="Jan 2025";
+	String month=date.split(" ")[0];
+	String year=date.split(" ")[1];
+	
+	System.out.println("Month is: "+month);
+	System.out.println("Year is: "+year);
+	
+	/*
+	 * Amount validation
+	 * amount should be 5000 and less than 10000
+	 * 
+	 */
+	
+	String bill="Total amount is 5000";
+	String data=bill.split(" ")[3];
+	System.out.println(data);
+	//string to int
+	int amount=Integer.parseInt(data);
+	if(amount==5000 && amount<10000)
+	{
+		System.out.println("Amount matched....Test Pass!");
+	}else
+	{
+		System.out.println("Amount not matched....Test Fail!");
+
+	}
+	
+	
+	
+	//toCharArray():Converts this string to a new character array.
+	
+	String s7="Hello";
+	char ar[]=s7.toCharArray();
+	for(char i:ar)
+	{
+		System.out.println(i);
+	}
+	
+	/*
+	 * StringBuffer class (java v1.1) & StringBuilder class(java v1.5)
+	 * - these classes are mutable
+	 * - StringBuffer is synchronize (at a time only thread)
+	 * - StringBuilder class is non synchronize(at a time multiple thread)
+	 */
+	StringBuilder b=new StringBuilder("Hello");
+	b.append(2025);
+	System.out.println(b);
+	
+	//how to reverse any string using method
+	System.out.println(b.reverse());
+	
+	//How to reverse string using string class
+	String ss1="Java Selenium cypress";
+	String res="";
+	for(int i=ss1.length()-1;i>=0;i--)
+	{
+		res=res+ss1.charAt(i);
+	}
+	
+	System.out.println("Reverse of string is: "+res);
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
