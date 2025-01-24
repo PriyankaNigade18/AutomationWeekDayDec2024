@@ -4,6 +4,10 @@ public class Car extends Vehical
 {
 
 	
+	public void price()
+	{
+		System.out.println("car.....Basic Model:1L");
+	}
 	
 	public void start()
 	{

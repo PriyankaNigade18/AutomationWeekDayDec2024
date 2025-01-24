@@ -70,6 +70,25 @@ Explicit(Manual conversion)here we use casting operator
 -----------------------------------------------------------
 large size--->small size 
 
+============================================
+Super Keyword
+============================
+1.Super keyword can be used to refer immediate parent class instance variable.
+2.Super keyword can be used to invoke immediate parent class method.
+3.Super keyword can be used to call immediate parent class constructor.(super())
+
+final Keyword
+======================================
+final keyword can be apply for variable,method and class
+1.If we apply final keyword to variable then that variable will be consider constant variable
+(value will become fix...no one can update)
+2.If we apply final keyword to method then we cant override that method in other class or child class
+3.If we apply final keyword to class then we can not extend that class into another class.
+===============================================================
+IQ: How we can implement immutable class ,variable or method in java?
+Ans: Using final keyword.
+==============================================================
+
 
 
 

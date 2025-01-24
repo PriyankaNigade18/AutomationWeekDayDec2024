@@ -1,3 +1,4 @@
+
 package com.week4.OOP_Inheritance;
 
 public class TestCar {
@@ -11,6 +12,7 @@ public class TestCar {
 		b1.stop();//inherited
 		b1.autoEngine();//individual
 		b1.breakFeature();
+		b1.price();
 		//child ref and child oject
 		
 		Audi a1=new Audi();
@@ -19,6 +21,7 @@ public class TestCar {
 		a1.stop();//inherited
 		a1.autoGear();//individual
 		a1.breakFeature();
+		a1.price();
 		
 		System.out.println("Parent ref and Parent Object");
 
