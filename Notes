@@ -89,6 +89,36 @@ IQ: How we can implement immutable class ,variable or method in java?
 Ans: Using final keyword.
 ==============================================================
 
+Data Abstraction
+================
+It is process of hiding implementation details of software from end user.
+
+Abstraction achive using
+------------------------------
+1.Abstarct class
+2.Interface
+
+1.Abstarct class
+===============
+1.In abstract class we can have both abstract method and non abstarct (concreate) Methods.
+2.Abstract method and class we can declare using abstract keyword.
+3.Abstract class can not be instantiated.
+4.Abstract methods must be overriden by class which inherits abstract class.
+5.Using Abstract class partial abstraction is possible.
+
+Interface
+===========
+1.An interface in java is a blueprint of a class. 
+2.Interface contains final and static variables.
+3.Interface contains abstract methods.
+4.An abstract method is a method contains definition but not body.
+5.Methods in interface are public by default.
+6.Interface supports the functionality of multiple inheritance.
+7.We can define interface with interface keyword.
+8.A class extends another class, an interface extends another interface
+ but a class implements an interface.
+9.We can create Object reference for Interface but we cannot instantiate interface.
+10.Inheritance use extends keyword and Interface use implements keyword.
 
 
 
