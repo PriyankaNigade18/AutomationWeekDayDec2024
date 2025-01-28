@@ -1,0 +1,68 @@
+Selenium WebDriver
+======================
+Selenium WebDriver is an API for WebUi automation
+WebDriver is an Interface
+
+=======================
+Selenium WebDriver setup
+=========================
+1.Using java project
+2.Using maven Project
+
+1.Using java 
+===============
+1.Create new java project
+2.Download selenium executable JAR from selenium.dev
+3.Add jar into project
+	right click on project--->build path-->configure build path--->library
+	----classpath--->add external jar
+	
+4. setup ready
+
+2.Using Maven
+===================
+Maven is project/Build management tool
+Maven has POM.xml file
+POM.xml is called configuration file for project
+POM stands for Project object model
+Under POM we will Seleniu  dependency
+dependency is executable library
+-------------------------------------------------------
+<project>
+
+<dependencies>
+<dependency>selenium 4</dependency>
+</dependencies>
+
+
+
+</project>
+
+-----------------------------------------------------------
+Maven Project has two types of repository
+-----------------------------------------------
+1.Local repo
+-------------
+c/user/m2 folder
+
+2.Central/Remote repo
+------------------------
+mvnrepository.com
+
+========================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

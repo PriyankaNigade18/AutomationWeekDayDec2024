@@ -23,7 +23,7 @@ public class HDFC implements RBI
 
 	@Override
 	public void rateOfInterest()
-	{
+	{	//x=300;
 		System.out.println(x);
 		System.out.println("HDFC.....rateOfInterestis 8%");
 
