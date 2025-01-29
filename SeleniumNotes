@@ -25,7 +25,7 @@ Maven is project/Build management tool
 Maven has POM.xml file
 POM.xml is called configuration file for project
 POM stands for Project object model
-Under POM we will Seleniu  dependency
+Under POM we will Selenium  dependency
 dependency is executable library
 -------------------------------------------------------
 <project>
