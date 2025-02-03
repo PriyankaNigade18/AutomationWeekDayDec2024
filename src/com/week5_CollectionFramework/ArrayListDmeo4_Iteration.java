@@ -11,6 +11,8 @@ public class ArrayListDmeo4_Iteration {
 	 * Duplication allowed
 	 * It is non synchronize
 	 * Default capacity for ArrayList is 10
+	 * Frequent operation is data retrieval
+	 * 
 	 * Iteration
 	 * ===============
 	 * 1.using for loop

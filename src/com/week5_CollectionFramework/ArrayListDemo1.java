@@ -10,6 +10,8 @@ public class ArrayListDemo1 {
 	 * Duplication allowed
 	 * It is non synchronize
 	 * Default capacity for ArrayList is 10
+	 * Frequent operation is data retrieval
+
 	 */
 	public static void main(String[] args)
 	{
