@@ -2,6 +2,7 @@ package com.week5_CollectionFramework;
 
 import java.util.Iterator;
 import java.util.LinkedList;
+import java.util.ListIterator;
 
 public class LinkedListDemo1 {
 
@@ -67,6 +68,22 @@ public class LinkedListDemo1 {
 		{
 			System.out.println(ir.next());
 		}
+		
+		System.out.println("*****************Iteration using listIterator()************");
+		
+		ListIterator<Integer> lr=l1.listIterator();
+		while(lr.hasNext())
+		{
+			System.out.println(lr.next());
+		}
+		
+		System.out.println("***************************");
+		//reverse order
+		while(lr.hasPrevious())
+		{
+			System.out.println(lr.previous());
+		}
+		
 		
 		
 		
