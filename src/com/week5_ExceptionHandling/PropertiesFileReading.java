@@ -8,8 +8,11 @@ import java.util.Properties;
 
 public class PropertiesFileReading {
 
-	public static void main(String[] args) throws Exception 
+	public static void main(String[] args) throws InterruptedException, IOException  
 	{
+		System.out.println("Program started!");
+		Thread.sleep(3000);
+		
 		// File class where we can declare path of the file
 		File f1=new File(System.getProperty("user.dir")+"//config.properties");
 		
