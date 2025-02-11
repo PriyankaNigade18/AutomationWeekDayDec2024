@@ -14,7 +14,24 @@ public class HowToAutomateWebElment {
 		WebDriver driver =new ChromeDriver();
 		
 		driver.get("https://www.google.com");
+		/*
+		//technique 2: Identify+ validate +perform action
 		
+		WebElement ele=driver.findElement(By.id("APjFqb"));
+		
+		if(ele.isDisplayed() && ele.isEnabled())
+		{
+			ele.sendKeys("Testng");
+		}
+		
+		*/
+		
+		//technique 3: Identification + Perform action
+		
+		driver.findElement(By.id("APjFqb")).sendKeys("cucumber");
+		
+		
+		/*
 		//technique1: By Locator
 		//get the address
 		By searchBox=By.id("APjFqb");
@@ -29,7 +46,7 @@ public class HowToAutomateWebElment {
 		//action-type keyword-sendKeys()
 		searchEle.sendKeys("Java",Keys.ENTER);
 		
-		
+		*/
 	}
 
 }

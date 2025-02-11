@@ -147,6 +147,44 @@ WebElement validation commands
 2.isEnabled()
 3.isSelected()
 
+How to Automate Link/Hyper link
+======================================
+Selenium provides two locators
+<a id="SignIn"  href="login.html">Sign In</a>
+							<a>  link text </a>	
+
+1.linkText(full text)
+-------------------------
+driver.findElement(By.linkText("Sign In")).click();
+
+
+2.partialLinkText(partial text)
+---------------------------------
+driver.findElement(By.patialLinkText("In")).click();
+
+
+
+Automation using ClassName locators
+======================================
+class="btn btn-default btn-primary"
+	class1	class2      class3
+
+//InvalidSelectorException: Compound class names not permitted
+driver.findElement(By.className("btn btn-default btn-primary"));
+
+first identify unique class name and then add it in script
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
