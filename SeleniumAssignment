@@ -6,3 +6,8 @@ https://automationplayground.com/crm/
 Assignment2:
 Automate Orangehrm application login and logout scenario
 https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+
+Assignment3: 
+Write automation script to get total count of links from naukari page
+and print link and text of links in console
+https://www.naukri.com/
