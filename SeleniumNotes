@@ -222,6 +222,146 @@ this command replace with getDomAttribute() and getDomProperty()
 
 - to get any attribute value we use getDomAttribute()
 
+=======================================================
+Dynamic Locators
+=====================
+1.By cssSelector
+2.By xpath
+
+cssSelector
+==============
+
+What is Css?
+Css is Cascaded style sheet it is a language used to provide style to Html element
+
+CssSelector is locator to locate the element base css properties
+CssSelector is faster than xpath as it travels only one direction[parent--->child]
+CssSelector does not support method
+CssSelector not based on indexing
+
+
+#input-email
+
+CssSelector patterns
+========================
+1.tagname with id
+----------------------------
+Syntax
+==========
+tagname#id
+
+<input type="text" name="email"  id="input-email" class="form-control">
+
+input#input-email
+
+2.tagname with attaribute
+----------------------------
+Syntax:
+=========
+tagname[attribute='value']
+
+<input type="password" name="password" value="" placeholder="Password" >
+
+input[placeholder='Password']
+
+3.tagname with className
+--------------------------
+Syntax
+=======
+tagname.className
+
+<input type="submit" value="Login" class="btn btn-primary">
+
+input.btn.btn-primary
+
+4.tagName with id,classname and attribute
+-------------------------------------------------
+Syntax:
+=========
+tagname#id.className[attribute='value']
+======================================================
+<input type="submit" value="Login" class="btn btn-primary">
+
+input.btn.btn-primary[value='Login']
+
+<input type="text" name="email"  id="input-email" class="form-control">
+
+input#input-email.form-control[name='email']
+
+===============================================================================
+Xpath
+==============
+
+Xpath is path of the element form HTML/XML page
+
+Xpath identify element from DOM(document object model)
+
+Xpath travels in both the direction(forward and backward)
+
+xpath support multiple methods
+
+html Dom
+=====================
+
+<html>-----------------root node
+<head>
+</head>
+
+<body>
+
+<input>
+<a>
+<div>------------------webElements
+<button>
+</body>
+
+</html>
+
+=================================================
+Xpath Types
+====================
+1.Absolute xpath(Full xpath)
+-------------------------------
+ - starts with root node and identify element
+ - starts with '/'
+ 
+/html/body/div[2]/div/div/div/div[2]/div/form/div[1]/input
+
+2.Relative xpath(partial xpath)
+------------------------------------------
+- it identify element by directly its relavtive property
+- starts with '//'
+
+//*[@id="input-email"]
+
+* look for all the tagname
+//input[@id="input-email"]
+
+Xpath Syntax
+=================
+//tagname[@attributename='value']
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

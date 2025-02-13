@@ -11,3 +11,11 @@ Assignment3:
 Write automation script to get total count of links from naukari page
 and print link and text of links in console
 https://www.naukri.com/
+
+Assignmet4:
+Automate CRM login and Logout scenario using cssSelector
+https://automationplayground.com/crm/
+
+Assignment5:
+Automate Orangehrm application login and logout scenario using cssSelector
+https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
