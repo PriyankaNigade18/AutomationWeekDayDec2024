@@ -329,7 +329,7 @@ Xpath Types
 
 2.Relative xpath(partial xpath)
 ------------------------------------------
-- it identify element by directly its relavtive property
+- it identify element by directly its ralative property
 - starts with '//'
 
 //*[@id="input-email"]
@@ -340,6 +340,90 @@ Xpath Types
 Xpath Syntax
 =================
 //tagname[@attributename='value']
+
+
+userName
+<input data-v-1f99f73c="" class="oxd-input" name="username" placeholder="Username" autofocus="">
+
+//input[@placeholder='Username']
+
+======================================================
+Xpath with Operators
+=======================
+1.and 
+------
+Syntax:
+==========
+//tagname[@attribute1='value' and @attribute2='value']
+
+2.or
+----------
+Syntax:
+==========
+//tagname[@attribute1='value' or @attribute2='value']
+
+=====================================================================
+
+Xpath with indexing
+=====================
+index
+------------------
+Syntax:
+============
+(xpath)[index]
+
+position()
+------------------
+Syntax:
+=========
+(xpath)[prosition()=index]
+========================================================
+
+Xpath Methods
+===================
+1.text()
+==========
+<tagname>visible text</tagname>
+Syntax:
+-------------
+//tagname[text()='text']
+
+<h1>Your Account Has Been Created!</h1>
+
+//h1[text()='Your Account Has Been Created!']
+
+<a> Best Sellers</a>
+//a[text()='Best Sellers']
+
+
+2.normalizeSpace()
+
+3.contains()
+
+4.startsWith()
+
+
+Xpath Axies
+======================
+
+
+
+
+
+Relative locators(selenium4)
+=============================
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
