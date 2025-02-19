@@ -433,12 +433,99 @@ Syntax:
 eg:
 //input[starts-with(@id,'two')]
 
-
+==================================================================
 Xpath Axies
 ======================
+1.ancestor
+===================
+Syntax:
+===========
+//tagname[@attribute='value']//ancestor::ancestor tagname
 
+//get the Ancestor for john
+===============================
+//td[text()='John']//ancestor::tbody -----1 of 1
 
+2.parent
+================
+Syntax:
+===========
+//tagname[@attribute='value']//parent::parent tagname
+//get the parent node for John
+===================================
+//td[text()='John']//parent::tr   1 of 1
 
+3.child
+===============
+Syntax:
+===========
+//tagname[@attribute='value']//child::child tagname
+
+//get the child element for row 4
+==========================================
+//tbody//tr[4]//child::td
+
+4.following
+====================
+Syntax:
+===========
+//tagname[@attribute='value']//following::following ele tagname
+
+/get all td tags after john
+=====================================
+//td[text()='John']//following::td   13 elements
+
+5.following-sibling
+===================
+Syntax:
+===========
+//tagname[@attribute='value']//following-sibling::following sibling ele tagname
+
+//get then  following sibling for John
+=======================================
+//td[text()='John']//following-sibling::td     3 elements
+
+6.preceding
+==================
+Syntax:
+===========
+//tagname[@attribute='value']//preceding::preceding ele tagname
+
+//get the all td before john
+===============================
+//td[text()='John']//preceding::td   16 element
+
+7.preceding-sibling
+=======================
+Syntax:
+===========
+//tagname[@attribute='value']//precedig-sibling::preceding sibling ele tagname
+
+//get the all td sibling before john
+=====================================
+//td[text()='John']//preceding-sibling::td   1 of 1
+
+HTML structure
+=====================
+<tbody>----------------------------ancestor
+<tr>--------------parent
+ 
+         <td>4</td>-----preceding sibling
+
+          <td>John</td>-----Element
+
+          <td>Robinson</td>.......
+							following sibling
+          <td>jr5527</td>......
+ 
+         <td>
+              <a href="user.html"><i class="icon-pencil"></i></a>
+              <a role="button" href="#myModal" data-toggle="modal"><i class="icon-remove"></i></a>
+          </td>
+
+        </tr>
+
+</tbody>
 
 
 Relative locators(selenium4)
