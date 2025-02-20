@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-20T09:14:03 IST" name="Default suite" finished-at="2025-02-20T09:14:08 IST" duration-ms="4933">
+    <groups>
+    </groups>
+    <test started-at="2025-02-20T09:14:03 IST" name="Default test" finished-at="2025-02-20T09:14:08 IST" duration-ms="4933">
+      <class name="com.WebElementHandling.FacebookDropdwon_SelectBased">
+        <test-method signature="testDropdown()[pri:0, instance:com.WebElementHandling.FacebookDropdwon_SelectBased@2fb3536e]" started-at="2025-02-20T09:14:03 IST" name="testDropdown" finished-at="2025-02-20T09:14:08 IST" duration-ms="4877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDropdown -->
+      </class> <!-- com.WebElementHandling.FacebookDropdwon_SelectBased -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

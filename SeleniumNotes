@@ -530,6 +530,92 @@ HTML structure
 
 Relative locators(selenium4)
 =============================
+leftOf()
+rightOf()
+above()
+below()
+=================================================
+WebElement Handling
+======================
+
+Automation for dropdown
+======================
+1.Select tag based dropdown
+----------------------------------
+<select>
+
+Selenium provides Select class
+Select s=new Select(locator for dropdown);
+
+single value selection
+------------------------
+1.selectByVisibleText("")
+2.SelectByIndex()
+3.selectByValue("")
+
+Is dropdown allowed multiple selection or not
+----------------------------------------------
+isMultiple()
+
+
+get the all options of dropdown
+--------------------------
+getOptions()
+
+
+
+
+
+
+
+2.Bootstrap/Autosuggesion/javascript
+
+
+Calendar
+
+WebTable
+
+Window handling
+
+Alert handling
+
+Frame handing
+
+svg elements
+
+headless testing
+
+Capabilities in Selenium
+
+File upload
+
+File Download
+
+
+Framework
+===================
+1.TestNg
+
+2.Cucumber
+
+Hybrid Framework
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
