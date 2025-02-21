@@ -10,6 +10,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
+import com.Generic.Utility;
+
 public class AmazonDropdown_SelectBased
 {
   @Test
@@ -22,7 +24,12 @@ public class AmazonDropdown_SelectBased
 	  
 	  //identify dropdown
 	  WebElement dropdownEle=driver.findElement(By.id("searchDropdownBox"));
+	 Utility.selectBasedDropdown(dropdownEle,"Kindle Store");
 	  
+	  
+	  
+	  
+	  /*
 	  //select based -->create object of Select class
 	  Select dd=new Select(dropdownEle);
 	  
@@ -60,7 +67,7 @@ public class AmazonDropdown_SelectBased
 	 }
 	
 	 
-	 
+	 */
 	 
 	 
 	 
