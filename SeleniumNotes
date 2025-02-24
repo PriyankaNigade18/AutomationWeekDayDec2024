@@ -566,13 +566,25 @@ getOptions()
 ==================================
 Automate as per manual process
 
-
-
+============================================================
 Calendar
+===============
+done
+============================
+Window handling
+===================
+How to automate multiple windows in selenium
+------------------------------------
+
+
+selenium 4 newWindow()
+===========================
+How to open new tab  or new window
+
+
+
 
 WebTable
-
-Window handling
 
 Alert handling
 
