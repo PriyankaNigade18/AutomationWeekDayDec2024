@@ -575,16 +575,30 @@ Window handling
 ===================
 How to automate multiple windows in selenium
 ------------------------------------
-
+-getWindowHandle(): String-Session id for active window
+-getWindowHandles():Set<String>-all open windows session Id
+-switchTo(): switch to the target element
 
 selenium 4 newWindow()
 ===========================
 How to open new tab  or new window
 
+WebDriver driver2=driver.switchTo().newWindow(WindowType.TAB);
 
+newWindow() returns Seperate WebDriver instance
 
-
+=========================================================
 WebTable
+===============
+static table
+Dynamic table
+Pegination logic
+
+
+
+
+
+
 
 Alert handling
 

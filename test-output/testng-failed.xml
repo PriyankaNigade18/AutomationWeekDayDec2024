@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.WebElementHandling.MultipleWindowHandling_Orangehrm">
+      <class name="com.WebElementHandling.WebTableHandling">
         <methods>
-          <include name="testMultipleWindow"/>
+          <include name="testDynamicTable"/>
         </methods>
-      </class> <!-- com.WebElementHandling.MultipleWindowHandling_Orangehrm -->
+      </class> <!-- com.WebElementHandling.WebTableHandling -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -40,10 +40,13 @@ public class MultipleWindowHandling_Orangehrm {
 			 System.out.println(driver.getWindowHandle());
 			  //email element
 			  driver.findElement(By.name("EmailHomePage")).sendKeys("test@gmail.com");
+			  //driver.close();//close current active window
 			  
+		  //driver.quit();//close all open windows by selenium
 		  }
 	  }
 	  
+	  //org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
 	  //parent windows
 	  driver.switchTo().window(parentId);
 	  driver.findElement(By.name("username")).sendKeys("Priyanka");
