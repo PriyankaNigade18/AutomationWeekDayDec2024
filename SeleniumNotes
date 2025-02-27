@@ -585,7 +585,7 @@ How to open new tab  or new window
 
 WebDriver driver2=driver.switchTo().newWindow(WindowType.TAB);
 
-newWindow() returns Seperate WebDriver instance
+newWindow() returns Separate WebDriver instance
 
 =========================================================
 WebTable
@@ -603,6 +603,10 @@ Pegination logic
 Alert handling
 
 Frame handing
+
+JavaScriptExecutor
+
+Actions class
 
 svg elements
 
