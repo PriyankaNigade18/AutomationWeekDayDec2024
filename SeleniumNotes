@@ -593,14 +593,25 @@ WebTable
 static table
 Dynamic table
 Pegination logic
-
-
-
-
-
-
-
+========================================================
 Alert handling
+====================
+Selenium provides Alert interface
+Types of alert
+=================
+1.Basic alert
+2.Confirmation alert
+3.Prompt alert
+
+accept()===>OK
+dismiss()===>Cancel
+getText()===>get the text of alert
+sendKeys()====>promt alert
+
+
+
+Basic Authentication
+
 
 Frame handing
 

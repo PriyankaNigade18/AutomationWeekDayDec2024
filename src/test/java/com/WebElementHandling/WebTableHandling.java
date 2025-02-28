@@ -87,46 +87,35 @@ public class WebTableHandling
 	 
 	 //get the headings
 	 List<WebElement> allHeadings=driver.findElements(By.xpath("//tr[@id='headers']//th"));
-	 System.out.println("Total Headings are: "+allHeadings.size());
+	 System.out.println("Total Headings are: "+allHeadings.size());//5
+	 
 	 int count=0;
-	 
-	 for(WebElement i:allHeadings) {
-		 
+	 for(WebElement i:allHeadings)
+	 {
 		 count++;
-		 if(i.getText().contains("Memory (MB)"))
+		 //System.out.println(i.getText());
+		 if(i.getText().contains("CPU (%)"))
 		 {
-			 System.out.println(i.getText());
-			 System.out.println(count);
-			 List<WebElement> data=driver.findElements(By.xpath("//table[@id='taskTable']//tbody//tr//td["+count+"]"));
-			 for(WebElement k:data)
+			 System.out.println("Position is: "+count);
+			 //get the column data
+			 List<WebElement> allData=driver.findElements(By.xpath("//tbody[@id='rows']//tr//td["+count+"]"));
+			 for(WebElement j:allData)
 			 {
-				 System.out.println(k.getText());
-			 }
+				 System.out.println(j.getText());
+				 
 		 }
-		 
-		
+			 
+			 
 	 }
-	 
-
-	 
-	 //System.out.println("Position is: "+count);
-//	 for(WebElement i:allHeadings)
-//	 {
-//		
-//		 System.out.println(i.getText());
-//		 if(i.getText().contains("Memory (MB)"))
-//		{
-//			 
-//		}
-//	 }
+	
 //	 
 	 System.out.println("**************************");
-	 /*
+	 
 	 //get all browser name
 	 List<WebElement> allNames=driver.findElements(By.xpath("//tbody[@id='rows']//tr//td[1]"));
-	 for(WebElement i:allNames)
+	 for(WebElement i1:allNames)
 	 {
-		 System.out.println(i.getText());
+		 System.out.println(i1.getText());
 	 }
 	 
 	 System.out.println("**************************");
@@ -139,59 +128,11 @@ public class WebTableHandling
 
 	 //Number of column
 	 List<WebElement> allCells=driver.findElements(By.xpath("//tbody[@id='rows']//tr[1]//td"));
-	 System.out.println("Number of columns are: "+allCells.size());//
-//	 for(WebElement i:allCells)
-//	 {
-//		 System.out.println(i.getText());
-//	 }
-//	 int count=1;
-//	 for(WebElement i:allCells)
-//	 {
-//		 
-//		 if(i.getText().contains("Memory (MB)"))
-//		 {
-//			count++;
-//		 }
-//		 
-//		 System.out.println("count is: "+count);
-//	 }
-//	 
-//	 System.out.println("count is: "+count);
+	 System.out.println("Number of columns are: "+allCells.size());
 	 
-//	 WebElement cnumber=null;
-//	 for(int i=0;i<allCells.size();i++)
-//	 {
-//		 
-//		allCells.get(i);
-//	
-//
-//	 }
-//	 System.out.println("Column number is: "+cnumber.getText());
-//	 
-	 
-	 
-	 System.out.println("**************************");
-/*
-	 //memory column data
-	 List<WebElement> allMemory=driver.findElements(By.xpath("//tbody[@id='rows']//tr//td[3]"));
-	 
-	 for(WebElement i:allMemory)
-	 {
-		 System.out.println(i.getText());
-	 }
-	 System.out.println("**************************");
-
-	 List<WebElement> alltd=driver.findElements(RelativeLocator.with(By.xpath("//tbody[@id='rows']//tr//td")).below(By.xpath("//tr[@id='headers']//th[text()='Memory (MB)']")));
-	 
-	 for(WebElement i:alltd)
-	 {
-		 System.out.println(i.getText());
-	 }
-	 
-	 */
-	 
-	 
+	 } 
   }
+  
   
   @Test(priority=3)
   public void testPegination()
@@ -236,11 +177,38 @@ public class WebTableHandling
 		  }
 	  }
 	  
+	  System.out.println("*******************");
 	  //navigate to each page and get all data in console-Assignment
+	  for(WebElement i:pages)
+	  {
+		  //open page
+		  i.click();
+		  
+		  //get the data
+		  List<WebElement> list=driver.findElements(By.xpath("//table[@id='productTable']//tbody//tr//td"));
+		  for(WebElement k:list)
+		  {
+			  System.out.println(k.getText());
+		  }
+		  
+		  
+		  
+	  }
 	  
 	  
+	  System.out.println("**********************");
 	  
+	  //open page number 2 and for 	Television check the check box
 	  
+	  for(WebElement p:pages)
+	  {
+		  if(p.getText().contains("2"))
+		  {
+			  //open it
+			  p.click();
+			  driver.findElement(By.xpath("(//table[@id='productTable']//tbody//tr)[2]//td[text()='Television']//following-sibling::td//input[@type='checkbox']")).click();
+		  }
+	  }
 
   }
 }

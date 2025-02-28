@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.WebElementHandling.WebTableHandling">
+      <class name="com.WebElementHandling.AlertHandling">
         <methods>
-          <include name="testDynamicTable"/>
+          <include name="testAlert"/>
         </methods>
-      </class> <!-- com.WebElementHandling.WebTableHandling -->
+      </class> <!-- com.WebElementHandling.AlertHandling -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
