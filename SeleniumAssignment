@@ -23,3 +23,20 @@ https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
 
 Assignment 6:
 Automate amazon to get all footers link in console using xpath
+
+
+Alert/Frame
+===================
+
+Assignment 7:Automate https://ui.vision/demo/webtest/frames/ for frame 4 and frame5
+
+Assignment 8:
+Automate https://ui.vision/demo/webtest/frames/ from nested frame
+automate inner form from frame3
+
+Assignment 9:
+Automate alerts
+https://demoqa.com/alerts
+
+Assignment 10:
+Automate nested frame https://demoqa.com/nestedframes

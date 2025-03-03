@@ -609,17 +609,41 @@ getText()===>get the text of alert
 sendKeys()====>promt alert
 
 
-
 Basic Authentication
+==========================
+https://username:password@domain
 
-
+=========================================================
 Frame handing
+===============
+One html document embedded into another html document is called frame
 
+<frame>
+<iframe>
+
+
+driver.switchTo().frame(index)
+driver.switchTo().frame(id/name)
+driver.switchTo().frame(WebElement frameEle)
+
+ 
+	   Selects either the first frame on the page, or 
+	   the main document when a page contains iframes. 
+	   
+	  driver.switchTo().defaultContent();
+	  
+	  
+====================================================
 JavaScriptExecutor
+
+svg elements
+
+shadow dom
+
 
 Actions class
 
-svg elements
+
 
 headless testing
 

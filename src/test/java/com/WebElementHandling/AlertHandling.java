@@ -77,6 +77,25 @@ public class AlertHandling {
 	  
 	  
 	  //alert3-Assignment
+	  driver.findElement(By.xpath("//button[text()='Click for JS Prompt']")).click();
+	  
+	  //alert will open
+	  Thread.sleep(2000);
+	  
+	  Alert alt3=driver.switchTo().alert();
+	  
+	  System.out.println("Alert3 text is: "+alt3.getText());
+	  
+	  
+	  alt3.sendKeys("Hello All!");
+	  
+	  alt3.accept();
+	  System.out.println("Alert3 result is: "+resultEle.getText());
+	  
+	  
+	  
+	  
+	  
 	  
 	  
 	  
