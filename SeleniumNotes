@@ -635,8 +635,19 @@ driver.switchTo().frame(WebElement frameEle)
 	  
 ====================================================
 JavaScriptExecutor
+=========================
+JavascriptExecutor is interface
 
-svg elements
+Scroll
+title
+refresh
+click
+
+
+
+svg elements(Scalable Vector Graphics (SVG))
+is an XML-based vector image format for defining two-dimensional
+graphics, having support for interactivity and animation.
 
 shadow dom
 
@@ -644,6 +655,8 @@ shadow dom
 Actions class
 
 
+
+Waits In selenium
 
 headless testing
 
@@ -653,7 +666,7 @@ File upload
 
 File Download
 
-
+=============================================
 Framework
 ===================
 1.TestNg

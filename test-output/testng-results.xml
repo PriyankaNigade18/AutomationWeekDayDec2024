@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-03T09:29:36 IST" name="Default suite" finished-at="2025-03-03T09:29:40 IST" duration-ms="4255">
+  <suite started-at="2025-03-04T09:28:46 IST" name="Default suite" finished-at="2025-03-04T09:28:57 IST" duration-ms="11581">
     <groups>
     </groups>
-    <test started-at="2025-03-03T09:29:36 IST" name="Default test" finished-at="2025-03-03T09:29:40 IST" duration-ms="4255">
-      <class name="com.WebElementHandling.FrameHandlingDemo2">
-        <test-method signature="testFrame()[pri:0, instance:com.WebElementHandling.FrameHandlingDemo2@2fb3536e]" started-at="2025-03-03T09:29:36 IST" name="testFrame" finished-at="2025-03-03T09:29:40 IST" duration-ms="4202" status="PASS">
+    <test started-at="2025-03-04T09:28:46 IST" name="Default test" finished-at="2025-03-04T09:28:57 IST" duration-ms="11581">
+      <class name="com.javascriptExecutor.JavascriptFunctionsDemo">
+        <test-method signature="testJavascriptFunctions()[pri:0, instance:com.javascriptExecutor.JavascriptFunctionsDemo@169e6180]" started-at="2025-03-04T09:28:46 IST" name="testJavascriptFunctions" finished-at="2025-03-04T09:28:57 IST" duration-ms="11524" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testFrame -->
-      </class> <!-- com.WebElementHandling.FrameHandlingDemo2 -->
+        </test-method> <!-- testJavascriptFunctions -->
+      </class> <!-- com.javascriptExecutor.JavascriptFunctionsDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
