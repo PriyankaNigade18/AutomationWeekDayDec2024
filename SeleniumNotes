@@ -643,18 +643,32 @@ title
 refresh
 click
 
-
-
+=========================================================
 svg elements(Scalable Vector Graphics (SVG))
 is an XML-based vector image format for defining two-dimensional
 graphics, having support for interactivity and animation.
+-svg automation is possible only using xpath
+-local-name() or name()
 
+//*[name()='svg']
+==========================================================
+BrokenLink
+
+The link whose status code is equal or greater than 400 that is broken link
+From server if there is no resource(data) then such link is broken
+Automation
+================
+1.there should be href attribute available for link
+if href is empty or null you cant test that link is valid or broken
+2.those links are hab=ving href attribute we are passing that request to server
+3.get the response code/status code and compare
+4.if status code>=400 then it is broken
+
+==================================================
 shadow dom
 
 
 Actions class
-
-
 
 Waits In selenium
 

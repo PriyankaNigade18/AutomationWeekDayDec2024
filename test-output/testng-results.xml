@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-04T09:28:46 IST" name="Default suite" finished-at="2025-03-04T09:28:57 IST" duration-ms="11581">
+  <suite started-at="2025-03-06T09:33:24 IST" name="Default suite" finished-at="2025-03-06T09:33:51 IST" duration-ms="26675">
     <groups>
     </groups>
-    <test started-at="2025-03-04T09:28:46 IST" name="Default test" finished-at="2025-03-04T09:28:57 IST" duration-ms="11581">
-      <class name="com.javascriptExecutor.JavascriptFunctionsDemo">
-        <test-method signature="testJavascriptFunctions()[pri:0, instance:com.javascriptExecutor.JavascriptFunctionsDemo@169e6180]" started-at="2025-03-04T09:28:46 IST" name="testJavascriptFunctions" finished-at="2025-03-04T09:28:57 IST" duration-ms="11524" status="PASS">
+    <test started-at="2025-03-06T09:33:24 IST" name="Default test" finished-at="2025-03-06T09:33:51 IST" duration-ms="26675">
+      <class name="com.specialScenario.BrokenLinkTest">
+        <test-method signature="testBrokenLink()[pri:0, instance:com.specialScenario.BrokenLinkTest@2fb3536e]" started-at="2025-03-06T09:33:24 IST" name="testBrokenLink" finished-at="2025-03-06T09:33:51 IST" duration-ms="26632" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testJavascriptFunctions -->
-      </class> <!-- com.javascriptExecutor.JavascriptFunctionsDemo -->
+        </test-method> <!-- testBrokenLink -->
+      </class> <!-- com.specialScenario.BrokenLinkTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
