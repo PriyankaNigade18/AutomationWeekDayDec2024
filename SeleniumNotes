@@ -666,6 +666,16 @@ if href is empty or null you cant test that link is valid or broken
 
 ==================================================
 shadow dom
+=============
+Dom within DOM is called Shadow Dom
+-Only CssSelector works with Shadow Dom
+-Document-->shadow host-->Shadow root--->shadow element
+
+shadow root(open) this elements only you can automate
+
+Nested dom
+=================
+One shadow root mey have another shadow root then it is called nested
 
 
 Actions class
