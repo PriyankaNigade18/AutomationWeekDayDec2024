@@ -638,10 +638,11 @@ JavaScriptExecutor
 =========================
 JavascriptExecutor is interface
 
-Scroll
-title
-refresh
-click
+1.Scroll
+2.title
+3.refresh
+4.click
+5.hidden element
 
 =========================================================
 svg elements(Scalable Vector Graphics (SVG))
@@ -677,14 +678,18 @@ Nested dom
 =================
 One shadow root mey have another shadow root then it is called nested
 
-
+===============================================================
 Actions class
+==================
+Mouse operation
 
+================================
 Waits In selenium
+
+Capabilities in Selenium
 
 headless testing
 
-Capabilities in Selenium
 
 File upload
 

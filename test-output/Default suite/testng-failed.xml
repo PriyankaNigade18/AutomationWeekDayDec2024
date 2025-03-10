@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.specialScenario.ShadowDomAutomation">
+      <class name="com.javascriptExecutor.HiddenElementAutomation">
         <methods>
-          <include name="testShadowDom"/>
+          <include name="testHiddenElement"/>
         </methods>
-      </class> <!-- com.specialScenario.ShadowDomAutomation -->
+      </class> <!-- com.javascriptExecutor.HiddenElementAutomation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
