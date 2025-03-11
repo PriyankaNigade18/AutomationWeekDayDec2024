@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-10T09:21:12 IST" name="Default suite" finished-at="2025-03-10T09:21:23 IST" duration-ms="10987">
+  <suite started-at="2025-03-11T09:20:12 IST" name="Default suite" finished-at="2025-03-11T09:20:23 IST" duration-ms="11156">
     <groups>
     </groups>
-    <test started-at="2025-03-10T09:21:12 IST" name="Default test" finished-at="2025-03-10T09:21:23 IST" duration-ms="10987">
-      <class name="com.javascriptExecutor.HiddenElementAutomation">
-        <test-method signature="testHiddenElement()[pri:0, instance:com.javascriptExecutor.HiddenElementAutomation@3b6ddd1d]" started-at="2025-03-10T09:21:12 IST" name="testHiddenElement" finished-at="2025-03-10T09:21:23 IST" duration-ms="10937" status="PASS">
+    <test started-at="2025-03-11T09:20:12 IST" name="Default test" finished-at="2025-03-11T09:20:23 IST" duration-ms="11156">
+      <class name="com.WaitsInSelenium.WaitngScenarioUsingFluentWait">
+        <test-method signature="testExplicitWait()[pri:0, instance:com.WaitsInSelenium.WaitngScenarioUsingFluentWait@2fb3536e]" started-at="2025-03-11T09:20:12 IST" name="testExplicitWait" finished-at="2025-03-11T09:20:23 IST" duration-ms="11096" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testHiddenElement -->
-      </class> <!-- com.javascriptExecutor.HiddenElementAutomation -->
+        </test-method> <!-- testExplicitWait -->
+      </class> <!-- com.WaitsInSelenium.WaitngScenarioUsingFluentWait -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

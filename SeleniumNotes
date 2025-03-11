@@ -682,18 +682,64 @@ One shadow root mey have another shadow root then it is called nested
 Actions class
 ==================
 Mouse operation
-
+done
 ================================
 Waits In selenium
+======================
+timeouts={implicit=0, pageLoad=300000, script=30000}
+Defult timeout
+====================
+1.Implicit Wait: 0
+2.PageLoad:  3L=300sec=5mins
+3.script: 30000ms= 30sec
+
+Synchronization Issue in Selenium
+=======================================
+When there is time mapping issue in between tool and application then it is called synchronization isuue
+
+Selenium handle synchronization using Dynamic Wait
+=======================================
+1.Implicit
+===================
+-Implicit wait is global wait applicable for all the elements in script
+- we can add as soon driver initialize
+
+driver.manage().timeout().implicitWait(Duration.seconds(10));
+
+10sec will be applicable for every element
+
+
+2.Explicit
+=================
+- This wait is applicable for single webelement
+- Explicit wait is not global wait
+- As per every element validation we can apply wait
+
+Selenium implement explicit wait with 2 classes
+-----------------------------------
+1.WebDriverWait class
+2.FluentWait class
+WebDriverWait(C) extends FluentWait(C) implements Wait(I)
+========================================================
 
 Capabilities in Selenium
+==============================
+To customize any browser session we use capabilities
 
 headless testing
 
-
-File upload
+test app in incognito browser
 
 File Download
+
+File upload
+================
+1.sendkeys
+
+2.Robot class
+
+
+
 
 =============================================
 Framework
