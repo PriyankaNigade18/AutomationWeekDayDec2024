@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-11T09:20:12 IST" name="Default suite" finished-at="2025-03-11T09:20:23 IST" duration-ms="11156">
+  <suite started-at="2025-03-12T09:29:49 IST" name="Default suite" finished-at="2025-03-12T09:30:00 IST" duration-ms="10710">
     <groups>
     </groups>
-    <test started-at="2025-03-11T09:20:12 IST" name="Default test" finished-at="2025-03-11T09:20:23 IST" duration-ms="11156">
-      <class name="com.WaitsInSelenium.WaitngScenarioUsingFluentWait">
-        <test-method signature="testExplicitWait()[pri:0, instance:com.WaitsInSelenium.WaitngScenarioUsingFluentWait@2fb3536e]" started-at="2025-03-11T09:20:12 IST" name="testExplicitWait" finished-at="2025-03-11T09:20:23 IST" duration-ms="11096" status="PASS">
+    <test started-at="2025-03-12T09:29:49 IST" name="Default test" finished-at="2025-03-12T09:30:00 IST" duration-ms="10710">
+      <class name="com.Capabilities.FileUploadUsingRobotClass">
+        <test-method signature="testFileUpload()[pri:0, instance:com.Capabilities.FileUploadUsingRobotClass@169e6180]" started-at="2025-03-12T09:29:49 IST" name="testFileUpload" finished-at="2025-03-12T09:30:00 IST" duration-ms="10663" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testExplicitWait -->
-      </class> <!-- com.WaitsInSelenium.WaitngScenarioUsingFluentWait -->
+        </test-method> <!-- testFileUpload -->
+      </class> <!-- com.Capabilities.FileUploadUsingRobotClass -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
