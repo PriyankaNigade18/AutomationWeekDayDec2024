@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Capabilities.FileUploadUsingRobotClass">
+      <class name="com.TestNG.BasicConcepts.TestDemo5_Assertion">
         <methods>
-          <include name="testFileUpload"/>
+          <include name="testSoftAssertion"/>
         </methods>
-      </class> <!-- com.Capabilities.FileUploadUsingRobotClass -->
+      </class> <!-- com.TestNG.BasicConcepts.TestDemo5_Assertion -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

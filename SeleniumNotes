@@ -772,6 +772,58 @@ Toolkit.getDefaultToolkit().getSystemClipboard().setContents(sc,null);
 Framework
 ===================
 1.TestNg
+===============
+priority- to run test in sequence
+description- to add test details
+timeouts- to set test case execution time
+invocationCount- to run test number of time
+enabled
+dependsOnMethods
+dependsOnGroup
+
+How to disable any test from current execution
+--------------------------------------------------
+1.enabled parameter
+2.using testng.xml file
+
+using comment(optional)
+
+========================
+Assertions 
+==================
+Assertion will help you to validate current state of application
+1.Hard Assertion--->Assert class
+2.Soft Assertion---->SoftAssert
+
+1.assertEquals(c1,c2)===> true,true=>pass otherwise fail
+2.assertTrue(c1)===>true===>pass otherwise fail
+3.assertFalse(c1)====>false===>pass otherwise fail
+
+
+
+
+Annotations
+===============
+
+how to pass data in Testng
+===============================
+1.Using xml file
+2.Using properties file
+
+Data driven Testing
+=======================
+1.Using Array
+2.Using Excel file
+
+xml file benefits
+
+Page Object Model design pattern
+
+=====================
+
+
+
+
 
 2.Cucumber
 
