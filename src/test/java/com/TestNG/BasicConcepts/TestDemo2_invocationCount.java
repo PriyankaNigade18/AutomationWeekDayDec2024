@@ -1,6 +1,7 @@
 package com.TestNG.BasicConcepts;
 
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 
 public class TestDemo2_invocationCount
 {

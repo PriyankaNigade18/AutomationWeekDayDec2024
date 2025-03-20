@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.TestNG.BasicConcepts.TestDemo5_Assertion">
+      <class name="com.TestNG.PageObjectModelUsingByLocator.LoginPageTestCase">
         <methods>
-          <include name="testSoftAssertion"/>
+          <include name="setUp"/>
+          <include name="validateLogin"/>
         </methods>
-      </class> <!-- com.TestNG.BasicConcepts.TestDemo5_Assertion -->
+      </class> <!-- com.TestNG.PageObjectModelUsingByLocator.LoginPageTestCase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

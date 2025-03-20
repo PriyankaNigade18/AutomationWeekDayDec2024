@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Suite]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)(failed)">
+    <classes>
+      <class name="com.TestNG.BasicConcepts.TestDemo6_DependsOnMethods">
+        <methods>
+          <include name="logoutTest"/>
+          <include name="loginTest"/>
+          <include name="registerTest"/>
+        </methods>
+      </class> <!-- com.TestNG.BasicConcepts.TestDemo6_DependsOnMethods -->
+      <class name="com.TestNG.BasicConcepts.TestDemo3_timeout">
+        <methods>
+          <include name="testCase2"/>
+        </methods>
+      </class> <!-- com.TestNG.BasicConcepts.TestDemo3_timeout -->
+      <class name="com.TestNG.BasicConcepts.TestDemo7_Grouping">
+        <methods>
+          <include name="searchProductTest"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.TestNG.BasicConcepts.TestDemo7_Grouping -->
+      <class name="com.TestNG.BasicConcepts.TestDemo5_Assertion">
+        <methods>
+          <include name="testSoftAssertion"/>
+        </methods>
+      </class> <!-- com.TestNG.BasicConcepts.TestDemo5_Assertion -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->

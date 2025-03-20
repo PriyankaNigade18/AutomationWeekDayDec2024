@@ -779,7 +779,8 @@ timeouts- to set test case execution time
 invocationCount- to run test number of time
 enabled
 dependsOnMethods
-dependsOnGroup
+groups
+dependsOnGroups
 
 How to disable any test from current execution
 --------------------------------------------------
@@ -799,11 +800,55 @@ Assertion will help you to validate current state of application
 2.assertTrue(c1)===>true===>pass otherwise fail
 3.assertFalse(c1)====>false===>pass otherwise fail
 
+How to create testSuite
+===========================
+TestSuite is collection of test cases
+using testng.xml file
+
+How to run only fail testcses
+==============================
+open test-output folder--->testng-failed.xml file and run it
 
 
+Annotations In TestNG(rule)
+===========================
+<suite>:collection of tests
+<test>:collection of classes
+<class>
+<method>:@Test
 
-Annotations
-===============
+Prerequisite/precondition
+-------------------------
+@BeforeMethod
+@BeforeClass
+@BeforeTest
+@BeforeSuite
+
+postcondition
+-----------------
+@AfterMethod
+@AfterClass
+@AfterTest
+@AfterSuite
+
+Page Object Model design pattern
+=====================
+Page Object Model is design pattern
+Here for every webpage create separate Page class and test class
+Page Object help you to implement Object Repository in selenium
+
+Ways to Page Object Design pattern
+-------------------
+1.Using By Locator
+2.Using PageFactory class
+
+Object Repository
+======================
+In Selenium we don't have default OR
+but we can implement using
+1.Page Object
+2.Properties file
+
 
 how to pass data in Testng
 ===============================
@@ -816,10 +861,6 @@ Data driven Testing
 2.Using Excel file
 
 xml file benefits
-
-Page Object Model design pattern
-
-=====================
 
 
 
