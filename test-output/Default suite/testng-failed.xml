@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.TestNG.PageObjectModelUsingByLocator.LoginPageTestCase">
+      <class name="com.TestNG.PageObjectModelUsingPageFactory.HrmLoginPageTestCase">
         <methods>
           <include name="setUp"/>
-          <include name="validateLogin"/>
+          <include name="validateUrl"/>
         </methods>
-      </class> <!-- com.TestNG.PageObjectModelUsingByLocator.LoginPageTestCase -->
+      </class> <!-- com.TestNG.PageObjectModelUsingPageFactory.HrmLoginPageTestCase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
