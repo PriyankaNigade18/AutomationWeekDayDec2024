@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-24T09:22:22 IST" name="Suite" finished-at="2025-03-24T09:22:29 IST" duration-ms="6622">
+    <groups>
+    </groups>
+    <test started-at="2025-03-24T09:22:22 IST" name="Test" finished-at="2025-03-24T09:22:29 IST" duration-ms="6622">
+      <class name="com.SwagLab.TestCases.T2_InventoryTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.SwagLab.TestCases.T2_InventoryTest@4b0d79fc]" started-at="2025-03-24T09:22:26 IST" name="setUp" finished-at="2025-03-24T09:22:28 IST" duration-ms="2015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:com.SwagLab.TestCases.T2_InventoryTest@4b0d79fc]" started-at="2025-03-24T09:22:28 IST" name="pageSetUp" finished-at="2025-03-24T09:22:28 IST" duration-ms="407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetUp -->
+        <test-method signature="verifyProductCount()[pri:1, instance:com.SwagLab.TestCases.T2_InventoryTest@4b0d79fc]" started-at="2025-03-24T09:22:28 IST" name="verifyProductCount" finished-at="2025-03-24T09:22:28 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductCount -->
+        <test-method signature="verifyProductDetails()[pri:2, instance:com.SwagLab.TestCases.T2_InventoryTest@4b0d79fc]" started-at="2025-03-24T09:22:28 IST" name="verifyProductDetails" finished-at="2025-03-24T09:22:29 IST" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductDetails -->
+        <test-method signature="validateAddToCartFeature()[pri:3, instance:com.SwagLab.TestCases.T2_InventoryTest@4b0d79fc]" started-at="2025-03-24T09:22:29 IST" name="validateAddToCartFeature" finished-at="2025-03-24T09:22:29 IST" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddToCartFeature -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.SwagLab.TestCases.T2_InventoryTest@4b0d79fc]" started-at="2025-03-24T09:22:29 IST" name="tearDown" finished-at="2025-03-24T09:22:29 IST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.SwagLab.TestCases.T2_InventoryTest -->
+      <class name="com.SwagLab.TestCases.T1_LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.SwagLab.TestCases.T1_LoginTest@957e06]" started-at="2025-03-24T09:22:22 IST" name="setUp" finished-at="2025-03-24T09:22:25 IST" duration-ms="2751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyUrl()[pri:1, instance:com.SwagLab.TestCases.T1_LoginTest@957e06]" started-at="2025-03-24T09:22:25 IST" name="verifyUrl" finished-at="2025-03-24T09:22:25 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUrl -->
+        <test-method signature="validateLogin()[pri:2, instance:com.SwagLab.TestCases.T1_LoginTest@957e06]" started-at="2025-03-24T09:22:25 IST" name="validateLogin" finished-at="2025-03-24T09:22:26 IST" duration-ms="463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.SwagLab.TestCases.T1_LoginTest@957e06]" started-at="2025-03-24T09:22:26 IST" name="tearDown" finished-at="2025-03-24T09:22:26 IST" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.SwagLab.TestCases.T1_LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
