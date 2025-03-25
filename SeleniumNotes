@@ -850,9 +850,26 @@ but we can implement using
 2.Properties file
 
 
-how to pass data in Testng
+how to pass data(test data/ configuration)in Testng
 ===============================
 1.Using xml file
+-------------
+1.create test case
+2.based on test case create xml file
+3.pass parameter from xml
+<parameter name="variable" value="data"/>
+4.to read it in test case just add annotation
+@Parameters({"variable"})
+5.run test case form the xml file
+
+
+Parallel Testing(using testng.xml file)
+---------------------
+1.method level
+2.class level
+3.test level
+
+
 2.Using properties file
 
 Data driven Testing
@@ -862,9 +879,13 @@ Data driven Testing
 
 xml file benefits
 
+SCreenshot
 
-
-
+Reports
+--------------
+1.ExtentReports.....deprecated
+2.ChainTestReport
+3.Alluer Report
 
 2.Cucumber
 

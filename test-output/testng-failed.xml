@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.TestNG.PageObjectModelUsingPageFactory.HrmLoginPageTestCase">
+      <class name="com.TestNG.DataPassing.DataPassingUsingXmlFile">
         <methods>
-          <include name="setUp"/>
-          <include name="validateUrl"/>
+          <include name="dataReading"/>
         </methods>
-      </class> <!-- com.TestNG.PageObjectModelUsingPageFactory.HrmLoginPageTestCase -->
+      </class> <!-- com.TestNG.DataPassing.DataPassingUsingXmlFile -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
