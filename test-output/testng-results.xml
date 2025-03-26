@@ -1,25 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-25T09:03:20 IST" name="Suite" finished-at="2025-03-25T09:03:26 IST" duration-ms="5162">
+  <suite started-at="2025-03-26T09:23:04 IST" name="Default suite" finished-at="2025-03-26T09:23:04 IST" duration-ms="75">
     <groups>
     </groups>
-    <test started-at="2025-03-25T09:03:20 IST" name="ChromeTest" finished-at="2025-03-25T09:03:24 IST" duration-ms="3792">
-      <class name="com.TestNG.ParallelTesting.ChromeTest">
-        <test-method signature="chromeTest()[pri:0, instance:com.TestNG.ParallelTesting.ChromeTest@2fb3536e]" started-at="2025-03-25T09:03:21 IST" name="chromeTest" finished-at="2025-03-25T09:03:24 IST" duration-ms="3730" status="PASS">
+    <test started-at="2025-03-26T09:23:04 IST" name="Default test" finished-at="2025-03-26T09:23:04 IST" duration-ms="75">
+      <class name="com.TestNG.DataDrivenTesting.DataDrivenUsingArray">
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:com.TestNG.DataDrivenTesting.DataDrivenUsingArray@1a18644]" started-at="2025-03-26T09:23:04 IST" name="testLogin" data-provider="loginData" finished-at="2025-03-26T09:23:04 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- chromeTest -->
-      </class> <!-- com.TestNG.ParallelTesting.ChromeTest -->
-    </test> <!-- ChromeTest -->
-    <test started-at="2025-03-25T09:03:20 IST" name="EdgeTest" finished-at="2025-03-25T09:03:26 IST" duration-ms="5162">
-      <class name="com.TestNG.ParallelTesting.EdgeTest">
-        <test-method signature="edgeTest()[pri:0, instance:com.TestNG.ParallelTesting.EdgeTest@428640fa]" started-at="2025-03-25T09:03:21 IST" name="edgeTest" finished-at="2025-03-25T09:03:26 IST" duration-ms="5112" status="PASS">
+        </test-method> <!-- testLogin -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:com.TestNG.DataDrivenTesting.DataDrivenUsingArray@1a18644]" started-at="2025-03-26T09:23:04 IST" name="testLogin" data-provider="loginData" finished-at="2025-03-26T09:23:04 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pooja]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- edgeTest -->
-      </class> <!-- com.TestNG.ParallelTesting.EdgeTest -->
-    </test> <!-- EdgeTest -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- testLogin -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:com.TestNG.DataDrivenTesting.DataDrivenUsingArray@1a18644]" started-at="2025-03-26T09:23:04 IST" name="testLogin" data-provider="loginData" finished-at="2025-03-26T09:23:04 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:com.TestNG.DataDrivenTesting.DataDrivenUsingArray@1a18644]" started-at="2025-03-26T09:23:04 IST" name="testLogin" data-provider="loginData" finished-at="2025-03-26T09:23:04 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sarang]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+      </class> <!-- com.TestNG.DataDrivenTesting.DataDrivenUsingArray -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

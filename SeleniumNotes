@@ -871,9 +871,13 @@ Parallel Testing(using testng.xml file)
 
 
 2.Using properties file
+===========================
 
 Data driven Testing
 =======================
+Data Driven Testing is process where same set of actions 
+executed for multiple set of data,multiple time
+
 1.Using Array
 2.Using Excel file
 
