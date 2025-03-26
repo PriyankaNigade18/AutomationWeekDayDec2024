@@ -9,6 +9,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.*;
 
 import com.SwagLab.Pages.*;
+import com.SwagLab.Utility.PropertiesUtil;
 
 public class BaseClass 
 {
@@ -16,11 +17,15 @@ public class BaseClass
 	public WebDriver driver;
 	public P1_Login lp;
 	public P2_Inventory ip;
+	public PropertiesUtil prop;
+	
+		
 	
 	@BeforeClass
 	@Parameters({"bname"})
 	public void setUp(String bname)
 	{
+		prop=new PropertiesUtil("swaglabconfig");
 		switch(bname)
 		{
 		case "chrome":driver=new ChromeDriver();break;
@@ -30,7 +35,7 @@ public class BaseClass
 		}
 		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		driver.get("https://www.saucedemo.com/");
+		driver.get(prop.getData("url"));
 		lp=new P1_Login(driver);
 		ip=new P2_Inventory(driver);
 		

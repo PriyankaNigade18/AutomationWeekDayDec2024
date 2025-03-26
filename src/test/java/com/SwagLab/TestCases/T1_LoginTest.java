@@ -15,8 +15,8 @@ public class T1_LoginTest extends BaseClass
   public void verifyUrl() 
   {
 	  String actUrl=lp.getAppUrl();
-	  String expUrl="https://www.saucedemo.com/";
-	  Assert.assertEquals(actUrl,expUrl);
+	 // String expUrl="https://www.saucedemo.com/";
+	  Assert.assertEquals(actUrl,prop.getData("expUrl"));
 	 // Assert.assertTrue(actUrl.contains("https"));
 	  System.out.println("Url matched...."+actUrl);
   }
@@ -28,7 +28,7 @@ public class T1_LoginTest extends BaseClass
 //	  lp.setPassword("secret_sauce");
 //	  lp.clickOnLoginButton();
 	  
-	  lp.doLogin("standard_user","secret_sauce");
+	  lp.doLogin(prop.getData("un"),prop.getData("psw"));
 	  Assert.assertTrue(lp.getAppUrl().contains("inventory"),"Login Fail");
 	  System.out.println("Login Completed!.....");
 	  
