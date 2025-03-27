@@ -880,6 +880,25 @@ executed for multiple set of data,multiple time
 
 1.Using Array
 2.Using Excel file
+-----------------------
+Apache POI is an API
+----------------------
+XSSFWorkbook
+XSSFSheet
+XSSFRow
+XSSFCell
+
+Method
+----------
+getStringCellValue()
+
+
+
+
+
+
+
+
 
 xml file benefits
 

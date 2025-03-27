@@ -1,77 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-26T09:23:04 IST" name="Default suite" finished-at="2025-03-26T09:23:04 IST" duration-ms="75">
+  <suite started-at="2025-03-27T09:32:17 IST" name="Default suite" finished-at="2025-03-27T09:32:25 IST" duration-ms="8024">
     <groups>
     </groups>
-    <test started-at="2025-03-26T09:23:04 IST" name="Default test" finished-at="2025-03-26T09:23:04 IST" duration-ms="75">
-      <class name="com.TestNG.DataDrivenTesting.DataDrivenUsingArray">
-        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:com.TestNG.DataDrivenTesting.DataDrivenUsingArray@1a18644]" started-at="2025-03-26T09:23:04 IST" name="testLogin" data-provider="loginData" finished-at="2025-03-26T09:23:04 IST" duration-ms="8" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin123]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2025-03-27T09:32:17 IST" name="Default test" finished-at="2025-03-27T09:32:25 IST" duration-ms="8024">
+      <class name="com.javascriptExecutor.ScrollDemo">
+        <test-method signature="testScrollForWebPage()[pri:0, instance:com.javascriptExecutor.ScrollDemo@618425b5]" started-at="2025-03-27T09:32:17 IST" name="testScrollForWebPage" finished-at="2025-03-27T09:32:25 IST" duration-ms="7956" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:com.TestNG.DataDrivenTesting.DataDrivenUsingArray@1a18644]" started-at="2025-03-26T09:23:04 IST" name="testLogin" data-provider="loginData" finished-at="2025-03-26T09:23:04 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Pooja]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[test123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:com.TestNG.DataDrivenTesting.DataDrivenUsingArray@1a18644]" started-at="2025-03-26T09:23:04 IST" name="testLogin" data-provider="loginData" finished-at="2025-03-26T09:23:04 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:com.TestNG.DataDrivenTesting.DataDrivenUsingArray@1a18644]" started-at="2025-03-26T09:23:04 IST" name="testLogin" data-provider="loginData" finished-at="2025-03-26T09:23:04 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Sarang]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[test123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-      </class> <!-- com.TestNG.DataDrivenTesting.DataDrivenUsingArray -->
+        </test-method> <!-- testScrollForWebPage -->
+      </class> <!-- com.javascriptExecutor.ScrollDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

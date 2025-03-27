@@ -23,8 +23,8 @@ public class ScrollDemo {
 	  
 	  
 	  
-//	  WebElement ele=driver.findElement(By.xpath("//span[contains(text(),'Best Sellers in Sports')]"));
-	  WebElement ele=driver.findElement(By.xpath("//span[contains(text(),'No cost EMI up to 24 months ')]"));
+    WebElement ele=driver.findElement(By.xpath("//span[contains(text(),'Best Sellers in Sports')]"));
+	  //WebElement ele=driver.findElement(By.xpath("//span[contains(text(),'No cost EMI up to 24 months ')]"));
 	  
 	  Utility.scrollUpToElement(driver,ele);
 	  

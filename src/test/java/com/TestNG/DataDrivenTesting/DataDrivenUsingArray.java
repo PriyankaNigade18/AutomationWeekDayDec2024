@@ -6,16 +6,16 @@ import org.testng.annotations.Test;
 public class DataDrivenUsingArray 
 {
 	//test Data
-	@DataProvider(name="loginData")
-	public Object[][] testData()
-	{
-		Object data[][]= {{"Admin","admin123"},{"Pooja","test123"},{"Admin","admin123"},{"Sarang","test123"}};
-		return data;
-	}
+//	@DataProvider(name="loginData")
+//	public Object[][] testData()
+//	{
+//		Object data[][]= {{"Admin","admin123"},{"Pooja","test123"},{"Admin","admin123"},{"Sarang","test123"}};
+//		return data;
+//	}
 	
 	
 	
-  @Test(dataProvider="loginData")
+  @Test(dataProvider="loginData",dataProviderClass = CustomData.class)
   public void testLogin(String un,String psw)
   {
 	  System.out.println("UserName is: "+un+" : "+"password is: "+psw);
