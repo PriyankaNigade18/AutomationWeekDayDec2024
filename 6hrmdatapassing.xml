@@ -4,7 +4,7 @@
   <test thread-count="5" name="Test">
   <parameter name="un" value="Admin"></parameter>
   <parameter name="psw" value="admin123"></parameter>
-  <parameter name="bname" value="firefox"></parameter>
+  <parameter name="bname" value="chrome"></parameter>
     <classes>
       <class name="com.TestNG.DataPassing.HRMDataPassingUsingxml"/>
     </classes>

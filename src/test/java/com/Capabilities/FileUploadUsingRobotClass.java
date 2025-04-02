@@ -5,7 +5,8 @@ import java.awt.Robot;
 import java.awt.Toolkit;
 import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
-import java.time.Duration;
+
+
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -23,8 +24,9 @@ public class FileUploadUsingRobotClass {
 //type=file then only upload is possible
 	  
 	  WebDriver driver=new ChromeDriver();
-	  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	  //driver.manage().timeouts().implicitlyWait(TimeUnit.SECONDS,10);
 	  
+	  //driver.manage().timeouts().implicitlyWait();
 	  driver.get("https://the-internet.herokuapp.com/upload");
 	  
 	  //choose a file
