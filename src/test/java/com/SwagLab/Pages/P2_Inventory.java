@@ -70,7 +70,7 @@ public class P2_Inventory
 	{
 		cartOption.click();
 		//navigating to cart page
-		return new P3_Cart();
+		return new P3_Cart(driver);
 	}
 	
 	
