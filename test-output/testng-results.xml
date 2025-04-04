@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-02T09:09:34 IST" name="Default suite" finished-at="2025-04-02T09:09:43 IST" duration-ms="8110">
+  <suite started-at="2025-04-02T09:18:59 IST" name="Default suite" finished-at="2025-04-02T09:19:06 IST" duration-ms="6970">
     <groups>
     </groups>
-    <test started-at="2025-04-02T09:09:34 IST" name="Default test" finished-at="2025-04-02T09:09:43 IST" duration-ms="8110">
-      <class name="com.TestNG.screenshots.FullPageScreenshotUsingAshotUtility">
-        <test-method signature="testFullPageScreenshot()[pri:0, instance:com.TestNG.screenshots.FullPageScreenshotUsingAshotUtility@6dc17b83]" started-at="2025-04-02T09:09:35 IST" name="testFullPageScreenshot" finished-at="2025-04-02T09:09:43 IST" duration-ms="8061" status="PASS">
+    <test started-at="2025-04-02T09:18:59 IST" name="Default test" finished-at="2025-04-02T09:19:06 IST" duration-ms="6970">
+      <class name="com.TestNG.screenshots.ScreenshotTest">
+        <test-method signature="TestScreenshot()[pri:0, instance:com.TestNG.screenshots.ScreenshotTest@32eff876]" started-at="2025-04-02T09:18:59 IST" name="TestScreenshot" finished-at="2025-04-02T09:19:06 IST" duration-ms="6892" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testFullPageScreenshot -->
-      </class> <!-- com.TestNG.screenshots.FullPageScreenshotUsingAshotUtility -->
+        </test-method> <!-- TestScreenshot -->
+      </class> <!-- com.TestNG.screenshots.ScreenshotTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

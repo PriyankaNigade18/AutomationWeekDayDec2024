@@ -31,7 +31,7 @@ public class ScreenshotTest
 	  driver.get("https://www.amazon.in/");
 	  
 	  	Date date=new Date();
-		SimpleDateFormat sdf=new SimpleDateFormat("dd-MM-yyyy");
+		SimpleDateFormat sdf=new SimpleDateFormat("dd-MM-yyyy-HH mm ss");
 		String cdate=sdf.format(date);
 		
 	  TakesScreenshot ts=(TakesScreenshot) driver;

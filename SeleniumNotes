@@ -898,6 +898,58 @@ basic page
 Full page using ashot utility
 
 Hybrid framework
+=============
+Design
+Execution
+-----------
+1.using testng.xml
+
+Maven
+===========
+Project managemnet and build management tool
+
+Plugins to install
+---------------------
+1.Compiler plugin
+https://maven.apache.org/plugins/maven-compiler-plugin/
+https://maven.apache.org/plugins/maven-compiler-plugin/examples/compile-using-different-jdk.html
+
+2.Surefire plugin
+https://maven.apache.org/surefire/maven-surefire-plugin/
+https://maven.apache.org/surefire/maven-surefire-plugin/examples/testng.html
+
+Maven Goals
+---------------
+1.clean : delete all the files from target folder
+2.test: test the project
+3.install : install+test
+
+To run Maven Project through command line
+------------------------
+1.Install maven on your local machine
+https://maven.apache.org/download.cgi
+
+2.add path into environment variable
+3.using CLI run the project
+
+
+2.using pom.xml (Maven)
+3.Using CLI
+
+DevOps
+=======
+Git and github
+Jenkins
+Docker
+
+Integration
+-----------------
+Framework-->push on Github-->Jenkins
+
+
+4.Using Jenkins
+
+
 
 Listeners
 =============
@@ -910,7 +962,7 @@ Reports
 
 2.Cucumber
 
-Hybrid Framework
+
 
 
 
