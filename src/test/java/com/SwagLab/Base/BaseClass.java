@@ -20,6 +20,7 @@ public class BaseClass
 	public PropertiesUtil prop;
 	public P3_Cart cp;
 	public P4_CheckOut ch;
+	public P5_OverView op;
 	
 		
 	
@@ -42,6 +43,7 @@ public class BaseClass
 		ip=new P2_Inventory(driver);
 		cp=new P3_Cart(driver);
 		ch=new P4_CheckOut(driver);
+		op=new P5_OverView(driver);
 		
 	}
 	

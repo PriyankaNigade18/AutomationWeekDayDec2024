@@ -1,0 +1,13 @@
+com\SwagLab\Pages\P5_OverView.class
+com\SwagLab\TestCases\T1_LoginTest.class
+com\SwagLab\TestCases\T4_CheckOutPageTest.class
+com\SwagLab\TestCases\T2_InventoryTest.class
+com\SwagLab\Pages\P1_Login.class
+com\SwagLab\TestCases\T5_OverviewPageTest.class
+com\SwagLab\TestCases\T3_CartPageTest.class
+com\SwagLab\Utility\PropertiesUtil.class
+com\SwagLab\Pages\P4_CheckOut.class
+com\SwagLab\Utility\Utility.class
+com\SwagLab\Pages\P3_Cart.class
+com\SwagLab\Base\BaseClass.class
+com\SwagLab\Pages\P2_Inventory.class
