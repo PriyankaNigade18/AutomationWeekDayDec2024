@@ -36,6 +36,7 @@ public class BaseClass
 		case "chrome":
 			ChromeOptions option=new ChromeOptions();
 			option.addArguments("--disable-notifications");
+			option.addArguments("--disable-popup-blocking");
 			driver=new ChromeDriver(option);break;
 		case "edge":driver=new EdgeDriver();break;
 	    case "firefox": driver=new FirefoxDriver();break;
