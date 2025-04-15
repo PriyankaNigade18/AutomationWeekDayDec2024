@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-skipped">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">14 methods,   14 passed</span>
+                    <span class="method-stats">14 methods,  1 skipped,  13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.SwagLab.TestCases.T4_CheckOutPageTest" class="method navigator-link" hash-for-method="validateCheckOut">validateCheckOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,11 +118,6 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.SwagLab.TestCases.T2_InventoryTest" class="method navigator-link" hash-for-method="validateAddToCartFeature">validateAddToCartFeature</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.SwagLab.TestCases.T4_CheckOutPageTest" class="method navigator-link" hash-for-method="validateCheckOut">validateCheckOut</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -183,9 +192,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="skipped.png"/>
               <span class="class-name">com.SwagLab.TestCases.T4_CheckOutPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -194,28 +203,70 @@
                   <a name="validateCheckOut">
                   </a> <!-- validateCheckOut -->
                   <span class="method-name">validateCheckOut</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#checkout&quot;}
+  (Session info: chrome=135.0.7049.85)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [25cea4dc73e1f32efe3c63893eeb4756, findElement {value=checkout, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\Ganes\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50519}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50519/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 25cea4dc73e1f32efe3c63893eeb4756
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy10.click(Unknown Source)
+	at com.SwagLab.Pages.P3_Cart.openCheckoutPage(P3_Cart.java:60)
+	at com.SwagLab.TestCases.T4_CheckOutPageTest.pageSetUp(T4_CheckOutPageTest.java:19)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
+          </div> <!-- suite-Suite-class-skipped -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.SwagLab.TestCases.T1_LoginTest</span>
+              <span class="class-name">com.SwagLab.TestCases.T3_CartPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="validateLogin">
-                  </a> <!-- validateLogin -->
-                  <span class="method-name">validateLogin</span>
+                  <a name="validateContinueShopping">
+                  </a> <!-- validateContinueShopping -->
+                  <span class="method-name">validateContinueShopping</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyUrl">
-                  </a> <!-- verifyUrl -->
-                  <span class="method-name">verifyUrl</span>
+                  <a name="validateProductRemove">
+                  </a> <!-- validateProductRemove -->
+                  <span class="method-name">validateProductRemove</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCheckOutPageLaunch">
+                  </a> <!-- verifyCheckOutPageLaunch -->
+                  <span class="method-name">verifyCheckOutPageLaunch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductAddedToCart">
+                  </a> <!-- verifyProductAddedToCart -->
+                  <span class="method-name">verifyProductAddedToCart</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -252,35 +303,21 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.SwagLab.TestCases.T3_CartPageTest</span>
+              <span class="class-name">com.SwagLab.TestCases.T1_LoginTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="validateContinueShopping">
-                  </a> <!-- validateContinueShopping -->
-                  <span class="method-name">validateContinueShopping</span>
+                  <a name="validateLogin">
+                  </a> <!-- validateLogin -->
+                  <span class="method-name">validateLogin</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="validateProductRemove">
-                  </a> <!-- validateProductRemove -->
-                  <span class="method-name">validateProductRemove</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyCheckOutPageLaunch">
-                  </a> <!-- verifyCheckOutPageLaunch -->
-                  <span class="method-name">verifyCheckOutPageLaunch</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyProductAddedToCart">
-                  </a> <!-- verifyProductAddedToCart -->
-                  <span class="method-name">verifyProductAddedToCart</span>
+                  <a name="verifyUrl">
+                  </a> <!-- verifyUrl -->
+                  <span class="method-name">verifyUrl</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -382,59 +419,59 @@ data.addRows(14);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'validateContinueShopping')
 data.setCell(0, 2, 'com.SwagLab.TestCases.T3_CartPageTest')
-data.setCell(0, 3, 6364);
+data.setCell(0, 3, 6381);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'validateProductRemove')
 data.setCell(1, 2, 'com.SwagLab.TestCases.T3_CartPageTest')
-data.setCell(1, 3, 2113);
+data.setCell(1, 3, 2117);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'verifyCheckOutPageLaunch')
 data.setCell(2, 2, 'com.SwagLab.TestCases.T3_CartPageTest')
-data.setCell(2, 3, 2083);
+data.setCell(2, 3, 2084);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'validateLogin')
 data.setCell(3, 2, 'com.SwagLab.TestCases.T1_LoginTest')
-data.setCell(3, 3, 437);
+data.setCell(3, 3, 704);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'validateCheckOut')
-data.setCell(4, 2, 'com.SwagLab.TestCases.T4_CheckOutPageTest')
-data.setCell(4, 3, 327);
+data.setCell(4, 1, 'validateAddToCartFeature')
+data.setCell(4, 2, 'com.SwagLab.TestCases.T2_InventoryTest')
+data.setCell(4, 3, 363);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'validateAddToCartFeature')
-data.setCell(5, 2, 'com.SwagLab.TestCases.T2_InventoryTest')
-data.setCell(5, 3, 254);
+data.setCell(5, 1, 'validateCheckoutProcess')
+data.setCell(5, 2, 'com.SwagLab.TestCases.T5_OverviewPageTest')
+data.setCell(5, 3, 243);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'validateCheckoutProcess')
-data.setCell(6, 2, 'com.SwagLab.TestCases.T5_OverviewPageTest')
-data.setCell(6, 3, 158);
+data.setCell(6, 1, 'verifyProductDetails')
+data.setCell(6, 2, 'com.SwagLab.TestCases.T2_InventoryTest')
+data.setCell(6, 3, 195);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'verifyProductDetails')
-data.setCell(7, 2, 'com.SwagLab.TestCases.T2_InventoryTest')
-data.setCell(7, 3, 99);
+data.setCell(7, 1, 'verifyPayementDeatails')
+data.setCell(7, 2, 'com.SwagLab.TestCases.T5_OverviewPageTest')
+data.setCell(7, 3, 135);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'verifyshippingDetails')
+data.setCell(8, 1, 'verifyPriceDetails')
 data.setCell(8, 2, 'com.SwagLab.TestCases.T5_OverviewPageTest')
-data.setCell(8, 3, 55);
+data.setCell(8, 3, 93);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'verifyPriceDetails')
+data.setCell(9, 1, 'verifyshippingDetails')
 data.setCell(9, 2, 'com.SwagLab.TestCases.T5_OverviewPageTest')
-data.setCell(9, 3, 52);
+data.setCell(9, 3, 92);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'verifyPayementDeatails')
-data.setCell(10, 2, 'com.SwagLab.TestCases.T5_OverviewPageTest')
-data.setCell(10, 3, 51);
+data.setCell(10, 1, 'verifyProductCount')
+data.setCell(10, 2, 'com.SwagLab.TestCases.T2_InventoryTest')
+data.setCell(10, 3, 56);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'verifyProductCount')
-data.setCell(11, 2, 'com.SwagLab.TestCases.T2_InventoryTest')
-data.setCell(11, 3, 33);
+data.setCell(11, 1, 'verifyUrl')
+data.setCell(11, 2, 'com.SwagLab.TestCases.T1_LoginTest')
+data.setCell(11, 3, 28);
 data.setCell(12, 0, 12)
 data.setCell(12, 1, 'verifyProductAddedToCart')
 data.setCell(12, 2, 'com.SwagLab.TestCases.T3_CartPageTest')
-data.setCell(12, 3, 24);
+data.setCell(12, 3, 25);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'verifyUrl')
-data.setCell(13, 2, 'com.SwagLab.TestCases.T1_LoginTest')
-data.setCell(13, 3, 17);
+data.setCell(13, 1, 'validateCheckOut')
+data.setCell(13, 2, 'com.SwagLab.TestCases.T4_CheckOutPageTest')
+data.setCell(13, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -472,123 +509,125 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">verifyUrl</span>
-                <span class="method-start">3100 ms</span>
+                <span class="method-start">3075 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">validateLogin</span>
-                <span class="method-start">3124 ms</span>
+                <span class="method-start">3112 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">3564 ms</span>
+                <span class="method-start">3818 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.SwagLab.TestCases.T2_InventoryTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp(chrome)</span>
-                <span class="method-start">3934 ms</span>
+                <span class="method-start">4465 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-class before">
                 <span class="method-name">pageSetUp</span>
-                <span class="method-start">6038 ms</span>
+                <span class="method-start">7946 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">verifyProductCount</span>
-                <span class="method-start">6500 ms</span>
+                <span class="method-start">8772 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyProductDetails</span>
-                <span class="method-start">6535 ms</span>
+                <span class="method-start">8832 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">validateAddToCartFeature</span>
-                <span class="method-start">6636 ms</span>
+                <span class="method-start">9028 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">6890 ms</span>
+                <span class="method-start">9392 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.SwagLab.TestCases.T3_CartPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp(chrome)</span>
-                <span class="method-start">7167 ms</span>
+                <span class="method-start">9986 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-class before">
                 <span class="method-name">pageSetUp</span>
-                <span class="method-start">9273 ms</span>
+                <span class="method-start">13088 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">verifyProductAddedToCart</span>
-                <span class="method-start">16094 ms</span>
+                <span class="method-start">20025 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">validateProductRemove</span>
-                <span class="method-start">16119 ms</span>
+                <span class="method-start">20051 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">validateContinueShopping</span>
-                <span class="method-start">18233 ms</span>
+                <span class="method-start">22169 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyCheckOutPageLaunch</span>
-                <span class="method-start">24598 ms</span>
+                <span class="method-start">28551 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">26681 ms</span>
+                <span class="method-start">30635 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.SwagLab.TestCases.T4_CheckOutPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp(chrome)</span>
-                <span class="method-start">27009 ms</span>
+                <span class="method-start">31073 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">pageSetUp</span>
-                <span class="method-start">32078 ms</span>
+                <span class="method-start">33277 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">validateCheckOut</span>
-                <span class="method-start">39060 ms</span>
+                <span class="method-start">50185 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">39389 ms</span>
+                <span class="method-start">50186 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.SwagLab.TestCases.T5_OverviewPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp(chrome)</span>
-                <span class="method-start">39716 ms</span>
+                <span class="method-start">50187 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-class before">
                 <span class="method-name">pageSetUp</span>
-                <span class="method-start">41778 ms</span>
+                <span class="method-start">52955 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">verifyPayementDeatails</span>
-                <span class="method-start">53199 ms</span>
+                <span class="method-start">64562 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyshippingDetails</span>
-                <span class="method-start">53251 ms</span>
+                <span class="method-start">64697 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyPriceDetails</span>
-                <span class="method-start">53308 ms</span>
+                <span class="method-start">64790 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">validateCheckoutProcess</span>
-                <span class="method-start">53360 ms</span>
+                <span class="method-start">64885 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">53518 ms</span>
+                <span class="method-start">65129 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

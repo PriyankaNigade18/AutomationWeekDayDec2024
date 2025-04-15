@@ -4,6 +4,7 @@ import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.*;
@@ -29,9 +30,13 @@ public class BaseClass
 	public void setUp(String bname)
 	{
 		prop=new PropertiesUtil("swaglabconfig");
+		
 		switch(bname)
 		{
-		case "chrome":driver=new ChromeDriver();break;
+		case "chrome":
+			ChromeOptions option=new ChromeOptions();
+			option.addArguments("--disable-notifications");
+			driver=new ChromeDriver(option);break;
 		case "edge":driver=new EdgeDriver();break;
 	    case "firefox": driver=new FirefoxDriver();break;
 		default: return;

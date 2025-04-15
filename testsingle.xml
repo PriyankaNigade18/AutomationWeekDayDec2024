@@ -5,7 +5,7 @@
   <parameter name="bname" value="chrome"></parameter>
     <classes>
     
-    <class name="com.SwagLab.TestCases.T5_OverviewPageTest"/>
+    <class name="com.SwagLab.TestCases.T3_CartPageTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

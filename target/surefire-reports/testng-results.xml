@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+<testng-results ignored="0" total="14" passed="13" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-04T09:23:32 IST" name="Suite" finished-at="2025-04-04T09:24:26 IST" duration-ms="53927">
+  <suite started-at="2025-04-15T09:05:57 IST" name="Suite" finished-at="2025-04-15T09:07:03 IST" duration-ms="65741">
     <groups>
     </groups>
-    <test started-at="2025-04-04T09:23:32 IST" name="Test" finished-at="2025-04-04T09:24:26 IST" duration-ms="53927">
+    <test started-at="2025-04-15T09:05:57 IST" name="Test" finished-at="2025-04-15T09:07:03 IST" duration-ms="65741">
       <class name="com.SwagLab.TestCases.T5_OverviewPageTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.SwagLab.TestCases.T5_OverviewPageTest@479d31f3]" started-at="2025-04-04T09:24:11 IST" name="setUp" finished-at="2025-04-04T09:24:13 IST" duration-ms="2062" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.SwagLab.TestCases.T5_OverviewPageTest@43195e57]" started-at="2025-04-15T09:06:47 IST" name="setUp" finished-at="2025-04-15T09:06:50 IST" duration-ms="2768" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,33 +18,33 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:com.SwagLab.TestCases.T5_OverviewPageTest@479d31f3]" started-at="2025-04-04T09:24:13 IST" name="pageSetUp" finished-at="2025-04-04T09:24:25 IST" duration-ms="11421" status="PASS">
+        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:com.SwagLab.TestCases.T5_OverviewPageTest@43195e57]" started-at="2025-04-15T09:06:50 IST" name="pageSetUp" finished-at="2025-04-15T09:07:02 IST" duration-ms="11606" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetUp -->
-        <test-method signature="verifyPayementDeatails()[pri:1, instance:com.SwagLab.TestCases.T5_OverviewPageTest@479d31f3]" started-at="2025-04-04T09:24:25 IST" name="verifyPayementDeatails" finished-at="2025-04-04T09:24:25 IST" duration-ms="51" status="PASS">
+        <test-method signature="verifyPayementDeatails()[pri:1, instance:com.SwagLab.TestCases.T5_OverviewPageTest@43195e57]" started-at="2025-04-15T09:07:02 IST" name="verifyPayementDeatails" finished-at="2025-04-15T09:07:02 IST" duration-ms="135" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPayementDeatails -->
-        <test-method signature="verifyshippingDetails()[pri:2, instance:com.SwagLab.TestCases.T5_OverviewPageTest@479d31f3]" started-at="2025-04-04T09:24:25 IST" name="verifyshippingDetails" finished-at="2025-04-04T09:24:25 IST" duration-ms="55" status="PASS">
+        <test-method signature="verifyshippingDetails()[pri:2, instance:com.SwagLab.TestCases.T5_OverviewPageTest@43195e57]" started-at="2025-04-15T09:07:02 IST" name="verifyshippingDetails" finished-at="2025-04-15T09:07:02 IST" duration-ms="92" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyshippingDetails -->
-        <test-method signature="verifyPriceDetails()[pri:3, instance:com.SwagLab.TestCases.T5_OverviewPageTest@479d31f3]" started-at="2025-04-04T09:24:25 IST" name="verifyPriceDetails" finished-at="2025-04-04T09:24:25 IST" duration-ms="52" status="PASS">
+        <test-method signature="verifyPriceDetails()[pri:3, instance:com.SwagLab.TestCases.T5_OverviewPageTest@43195e57]" started-at="2025-04-15T09:07:02 IST" name="verifyPriceDetails" finished-at="2025-04-15T09:07:02 IST" duration-ms="93" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPriceDetails -->
-        <test-method signature="validateCheckoutProcess()[pri:4, instance:com.SwagLab.TestCases.T5_OverviewPageTest@479d31f3]" started-at="2025-04-04T09:24:25 IST" name="validateCheckoutProcess" finished-at="2025-04-04T09:24:25 IST" duration-ms="158" status="PASS">
+        <test-method signature="validateCheckoutProcess()[pri:4, instance:com.SwagLab.TestCases.T5_OverviewPageTest@43195e57]" started-at="2025-04-15T09:07:02 IST" name="validateCheckoutProcess" finished-at="2025-04-15T09:07:02 IST" duration-ms="243" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCheckoutProcess -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.SwagLab.TestCases.T5_OverviewPageTest@479d31f3]" started-at="2025-04-04T09:24:25 IST" name="tearDown" finished-at="2025-04-04T09:24:26 IST" duration-ms="381" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.SwagLab.TestCases.T5_OverviewPageTest@43195e57]" started-at="2025-04-15T09:07:02 IST" name="tearDown" finished-at="2025-04-15T09:07:03 IST" duration-ms="585" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.SwagLab.TestCases.T5_OverviewPageTest -->
       <class name="com.SwagLab.TestCases.T3_CartPageTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.SwagLab.TestCases.T3_CartPageTest@43195e57]" started-at="2025-04-04T09:23:39 IST" name="setUp" finished-at="2025-04-04T09:23:41 IST" duration-ms="2106" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.SwagLab.TestCases.T3_CartPageTest@6973b51b]" started-at="2025-04-15T09:06:07 IST" name="setUp" finished-at="2025-04-15T09:06:10 IST" duration-ms="3102" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -55,33 +55,33 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:com.SwagLab.TestCases.T3_CartPageTest@43195e57]" started-at="2025-04-04T09:23:41 IST" name="pageSetUp" finished-at="2025-04-04T09:23:48 IST" duration-ms="6820" status="PASS">
+        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:com.SwagLab.TestCases.T3_CartPageTest@6973b51b]" started-at="2025-04-15T09:06:10 IST" name="pageSetUp" finished-at="2025-04-15T09:06:17 IST" duration-ms="6937" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetUp -->
-        <test-method signature="verifyProductAddedToCart()[pri:1, instance:com.SwagLab.TestCases.T3_CartPageTest@43195e57]" started-at="2025-04-04T09:23:48 IST" name="verifyProductAddedToCart" finished-at="2025-04-04T09:23:48 IST" duration-ms="24" status="PASS">
+        <test-method signature="verifyProductAddedToCart()[pri:1, instance:com.SwagLab.TestCases.T3_CartPageTest@6973b51b]" started-at="2025-04-15T09:06:17 IST" name="verifyProductAddedToCart" finished-at="2025-04-15T09:06:17 IST" duration-ms="25" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProductAddedToCart -->
-        <test-method signature="validateProductRemove()[pri:2, instance:com.SwagLab.TestCases.T3_CartPageTest@43195e57]" started-at="2025-04-04T09:23:48 IST" name="validateProductRemove" finished-at="2025-04-04T09:23:50 IST" duration-ms="2113" status="PASS">
+        <test-method signature="validateProductRemove()[pri:2, instance:com.SwagLab.TestCases.T3_CartPageTest@6973b51b]" started-at="2025-04-15T09:06:17 IST" name="validateProductRemove" finished-at="2025-04-15T09:06:19 IST" duration-ms="2117" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateProductRemove -->
-        <test-method signature="validateContinueShopping()[pri:3, instance:com.SwagLab.TestCases.T3_CartPageTest@43195e57]" started-at="2025-04-04T09:23:50 IST" name="validateContinueShopping" finished-at="2025-04-04T09:23:56 IST" duration-ms="6364" status="PASS">
+        <test-method signature="validateContinueShopping()[pri:3, instance:com.SwagLab.TestCases.T3_CartPageTest@6973b51b]" started-at="2025-04-15T09:06:19 IST" name="validateContinueShopping" finished-at="2025-04-15T09:06:26 IST" duration-ms="6381" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateContinueShopping -->
-        <test-method signature="verifyCheckOutPageLaunch()[pri:4, instance:com.SwagLab.TestCases.T3_CartPageTest@43195e57]" started-at="2025-04-04T09:23:56 IST" name="verifyCheckOutPageLaunch" finished-at="2025-04-04T09:23:58 IST" duration-ms="2083" status="PASS">
+        <test-method signature="verifyCheckOutPageLaunch()[pri:4, instance:com.SwagLab.TestCases.T3_CartPageTest@6973b51b]" started-at="2025-04-15T09:06:26 IST" name="verifyCheckOutPageLaunch" finished-at="2025-04-15T09:06:28 IST" duration-ms="2084" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCheckOutPageLaunch -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.SwagLab.TestCases.T3_CartPageTest@43195e57]" started-at="2025-04-04T09:23:58 IST" name="tearDown" finished-at="2025-04-04T09:23:59 IST" duration-ms="328" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.SwagLab.TestCases.T3_CartPageTest@6973b51b]" started-at="2025-04-15T09:06:28 IST" name="tearDown" finished-at="2025-04-15T09:06:28 IST" duration-ms="438" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.SwagLab.TestCases.T3_CartPageTest -->
       <class name="com.SwagLab.TestCases.T2_InventoryTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.SwagLab.TestCases.T2_InventoryTest@6973b51b]" started-at="2025-04-04T09:23:36 IST" name="setUp" finished-at="2025-04-04T09:23:38 IST" duration-ms="2104" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.SwagLab.TestCases.T2_InventoryTest@72057ecf]" started-at="2025-04-15T09:06:02 IST" name="setUp" finished-at="2025-04-15T09:06:05 IST" duration-ms="3481" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -92,29 +92,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:com.SwagLab.TestCases.T2_InventoryTest@6973b51b]" started-at="2025-04-04T09:23:38 IST" name="pageSetUp" finished-at="2025-04-04T09:23:38 IST" duration-ms="460" status="PASS">
+        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:com.SwagLab.TestCases.T2_InventoryTest@72057ecf]" started-at="2025-04-15T09:06:05 IST" name="pageSetUp" finished-at="2025-04-15T09:06:06 IST" duration-ms="816" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetUp -->
-        <test-method signature="verifyProductCount()[pri:1, instance:com.SwagLab.TestCases.T2_InventoryTest@6973b51b]" started-at="2025-04-04T09:23:38 IST" name="verifyProductCount" finished-at="2025-04-04T09:23:38 IST" duration-ms="33" status="PASS">
+        <test-method signature="verifyProductCount()[pri:1, instance:com.SwagLab.TestCases.T2_InventoryTest@72057ecf]" started-at="2025-04-15T09:06:06 IST" name="verifyProductCount" finished-at="2025-04-15T09:06:06 IST" duration-ms="56" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProductCount -->
-        <test-method signature="verifyProductDetails()[pri:2, instance:com.SwagLab.TestCases.T2_InventoryTest@6973b51b]" started-at="2025-04-04T09:23:38 IST" name="verifyProductDetails" finished-at="2025-04-04T09:23:38 IST" duration-ms="99" status="PASS">
+        <test-method signature="verifyProductDetails()[pri:2, instance:com.SwagLab.TestCases.T2_InventoryTest@72057ecf]" started-at="2025-04-15T09:06:06 IST" name="verifyProductDetails" finished-at="2025-04-15T09:06:06 IST" duration-ms="195" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProductDetails -->
-        <test-method signature="validateAddToCartFeature()[pri:3, instance:com.SwagLab.TestCases.T2_InventoryTest@6973b51b]" started-at="2025-04-04T09:23:38 IST" name="validateAddToCartFeature" finished-at="2025-04-04T09:23:39 IST" duration-ms="254" status="PASS">
+        <test-method signature="validateAddToCartFeature()[pri:3, instance:com.SwagLab.TestCases.T2_InventoryTest@72057ecf]" started-at="2025-04-15T09:06:06 IST" name="validateAddToCartFeature" finished-at="2025-04-15T09:06:07 IST" duration-ms="363" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateAddToCartFeature -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.SwagLab.TestCases.T2_InventoryTest@6973b51b]" started-at="2025-04-04T09:23:39 IST" name="tearDown" finished-at="2025-04-04T09:23:39 IST" duration-ms="276" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.SwagLab.TestCases.T2_InventoryTest@72057ecf]" started-at="2025-04-15T09:06:07 IST" name="tearDown" finished-at="2025-04-15T09:06:07 IST" duration-ms="593" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.SwagLab.TestCases.T2_InventoryTest -->
       <class name="com.SwagLab.TestCases.T4_CheckOutPageTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.SwagLab.TestCases.T4_CheckOutPageTest@333291e3]" started-at="2025-04-04T09:23:59 IST" name="setUp" finished-at="2025-04-04T09:24:04 IST" duration-ms="5069" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.SwagLab.TestCases.T4_CheckOutPageTest@1ab3a8c8]" started-at="2025-04-15T09:06:28 IST" name="setUp" finished-at="2025-04-15T09:06:30 IST" duration-ms="2204" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -125,21 +125,173 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:com.SwagLab.TestCases.T4_CheckOutPageTest@333291e3]" started-at="2025-04-04T09:24:04 IST" name="pageSetUp" finished-at="2025-04-04T09:24:11 IST" duration-ms="6981" status="PASS">
+        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:com.SwagLab.TestCases.T4_CheckOutPageTest@1ab3a8c8]" started-at="2025-04-15T09:06:30 IST" name="pageSetUp" finished-at="2025-04-15T09:06:47 IST" duration-ms="16899" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#checkout"}
+  (Session info: chrome=135.0.7049.85)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [25cea4dc73e1f32efe3c63893eeb4756, findElement {value=checkout, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\Ganes\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50519}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50519/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 25cea4dc73e1f32efe3c63893eeb4756]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#checkout"}
+  (Session info: chrome=135.0.7049.85)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [25cea4dc73e1f32efe3c63893eeb4756, findElement {value=checkout, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\Ganes\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50519}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50519/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 25cea4dc73e1f32efe3c63893eeb4756
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy10.click(Unknown Source)
+at com.SwagLab.Pages.P3_Cart.openCheckoutPage(P3_Cart.java:60)
+at com.SwagLab.TestCases.T4_CheckOutPageTest.pageSetUp(T4_CheckOutPageTest.java:19)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetUp -->
-        <test-method signature="validateCheckOut()[pri:1, instance:com.SwagLab.TestCases.T4_CheckOutPageTest@333291e3]" started-at="2025-04-04T09:24:11 IST" name="validateCheckOut" finished-at="2025-04-04T09:24:11 IST" duration-ms="327" status="PASS">
+        <test-method signature="validateCheckOut()[pri:1, instance:com.SwagLab.TestCases.T4_CheckOutPageTest@1ab3a8c8]" started-at="2025-04-15T09:06:47 IST" name="validateCheckOut" finished-at="2025-04-15T09:06:47 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#checkout"}
+  (Session info: chrome=135.0.7049.85)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [25cea4dc73e1f32efe3c63893eeb4756, findElement {value=checkout, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\Ganes\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50519}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50519/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 25cea4dc73e1f32efe3c63893eeb4756]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#checkout"}
+  (Session info: chrome=135.0.7049.85)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [25cea4dc73e1f32efe3c63893eeb4756, findElement {value=checkout, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\Ganes\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50519}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50519/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 25cea4dc73e1f32efe3c63893eeb4756
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy10.click(Unknown Source)
+at com.SwagLab.Pages.P3_Cart.openCheckoutPage(P3_Cart.java:60)
+at com.SwagLab.TestCases.T4_CheckOutPageTest.pageSetUp(T4_CheckOutPageTest.java:19)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCheckOut -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.SwagLab.TestCases.T4_CheckOutPageTest@333291e3]" started-at="2025-04-04T09:24:11 IST" name="tearDown" finished-at="2025-04-04T09:24:11 IST" duration-ms="327" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.SwagLab.TestCases.T4_CheckOutPageTest@1ab3a8c8]" started-at="2025-04-15T09:06:47 IST" name="tearDown" finished-at="2025-04-15T09:06:47 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.SwagLab.TestCases.T4_CheckOutPageTest -->
       <class name="com.SwagLab.TestCases.T1_LoginTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.SwagLab.TestCases.T1_LoginTest@35ef1869]" started-at="2025-04-04T09:23:32 IST" name="setUp" finished-at="2025-04-04T09:23:35 IST" duration-ms="3089" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.SwagLab.TestCases.T1_LoginTest@41fbdac4]" started-at="2025-04-15T09:05:57 IST" name="setUp" finished-at="2025-04-15T09:06:00 IST" duration-ms="3053" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -150,15 +302,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyUrl()[pri:1, instance:com.SwagLab.TestCases.T1_LoginTest@35ef1869]" started-at="2025-04-04T09:23:35 IST" name="verifyUrl" finished-at="2025-04-04T09:23:35 IST" duration-ms="17" status="PASS">
+        <test-method signature="verifyUrl()[pri:1, instance:com.SwagLab.TestCases.T1_LoginTest@41fbdac4]" started-at="2025-04-15T09:06:00 IST" name="verifyUrl" finished-at="2025-04-15T09:06:00 IST" duration-ms="28" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUrl -->
-        <test-method signature="validateLogin()[pri:2, instance:com.SwagLab.TestCases.T1_LoginTest@35ef1869]" started-at="2025-04-04T09:23:35 IST" name="validateLogin" finished-at="2025-04-04T09:23:35 IST" duration-ms="437" status="PASS">
+        <test-method signature="validateLogin()[pri:2, instance:com.SwagLab.TestCases.T1_LoginTest@41fbdac4]" started-at="2025-04-15T09:06:00 IST" name="validateLogin" finished-at="2025-04-15T09:06:01 IST" duration-ms="704" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.SwagLab.TestCases.T1_LoginTest@35ef1869]" started-at="2025-04-04T09:23:35 IST" name="tearDown" finished-at="2025-04-04T09:23:36 IST" duration-ms="369" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.SwagLab.TestCases.T1_LoginTest@41fbdac4]" started-at="2025-04-15T09:06:01 IST" name="tearDown" finished-at="2025-04-15T09:06:02 IST" duration-ms="646" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
