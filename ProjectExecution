@@ -1,0 +1,11 @@
+
+Project Execution
+===================
+1.Using testng.xml
+2.Using pom.xml(Maven)
+3.Using CLI(Maven)
+4.Using jenkins
+	1.Eclipse+Maven+Jenkins integration
+	2.Eclipse+Github+Jenkins Integration
+	
+	
