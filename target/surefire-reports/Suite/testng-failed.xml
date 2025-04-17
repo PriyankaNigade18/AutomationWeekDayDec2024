@@ -4,25 +4,6 @@
   <test thread-count="5" name="Test(failed)" verbose="0">
     <parameter name="bname" value="chrome"/>
     <classes>
-      <class name="com.SwagLab.TestCases.T3_CartPageTest">
-        <methods>
-          <include name="validateContinueShopping"/>
-          <include name="validateProductRemove"/>
-          <include name="verifyProductAddedToCart"/>
-          <include name="pageSetUp"/>
-          <include name="setUp"/>
-          <include name="verifyCheckOutPageLaunch"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.SwagLab.TestCases.T3_CartPageTest -->
-      <class name="com.SwagLab.TestCases.T4_CheckOutPageTest">
-        <methods>
-          <include name="validateCheckOut"/>
-          <include name="setUp"/>
-          <include name="pageSetUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.SwagLab.TestCases.T4_CheckOutPageTest -->
       <class name="com.SwagLab.TestCases.T5_OverviewPageTest">
         <methods>
           <include name="verifyPayementDeatails"/>
