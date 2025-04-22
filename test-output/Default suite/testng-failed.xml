@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.TestNG.DataDrivenTesting.ScreenshotTest">
+      <class name="com.TestListners.CRMAppTestForListener">
         <methods>
-          <include name="TestScreenshot"/>
+          <include name="validateLogin"/>
+          <include name="setUp"/>
+          <include name="validateSignOutLink"/>
         </methods>
-      </class> <!-- com.TestNG.DataDrivenTesting.ScreenshotTest -->
+      </class> <!-- com.TestListners.CRMAppTestForListener -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

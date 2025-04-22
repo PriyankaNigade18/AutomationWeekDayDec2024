@@ -942,17 +942,29 @@ Git and github
 Jenkins
 Docker
 
+4.Using Jenkins
 Integration
 -----------------
-Framework-->push on Github-->Jenkins
+Framework(Maven)-->push on Github-->Jenkins
+Famework(maven)---->Jenkins
 
 
-4.Using Jenkins
+Docker
+===========
+1.Selenium Grid
+2.ChainTest Report
 
 
+TestNG Listeners
+================
+Listeners listen current event of a test and return the result
+How to apply listener on test
+--------------
+1.using @Listeners annotation
+@Listeners(com.TestListners.AppListener.class)
 
-Listeners
-=============
+2.using xml file
+
 
 Reports
 --------------
@@ -960,7 +972,9 @@ Reports
 2.ChainTestReport
 3.Alluer Report
 
-2.Cucumber
+2.Cucumber Framework
+-------------------------
+
 
 
 
