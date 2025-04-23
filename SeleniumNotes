@@ -970,7 +970,26 @@ Reports
 --------------
 1.ExtentReports.....deprecated
 2.ChainTestReport
+
 3.Alluer Report
+=====================
+Allure Reports
+====================
+
+https://allurereport.org/docs/how-it-works/
+1. Create a maven project add selenium testing and allure testing dependency
+2. Download allure.zip for windows from official website
+https://github.com/allure-framework/allure2/releases/tag/2.29.0
+3. set the path in environment variables
+4. check the version allure --version
+5. create test case with .xml file run and refresh the project
+	one allure-results folder will create in project directory
+6.to check html report
+use cmd : allure serve path of allure-results folder 
+then check the report
+
+
+
 
 2.Cucumber Framework
 -------------------------

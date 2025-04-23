@@ -3,7 +3,8 @@
 <suite name="Suite">
 
 <listeners>
-<listener class-name="com.TestListners.AppListener"></listener>
+<listener class-name="com.testlisteners.ExtentITestNGListeners"></listener>
+<!-- <listener class-name="com.TestListners.AppListener"></listener>-->
 
 </listeners>
   <test thread-count="5" name="Test">
