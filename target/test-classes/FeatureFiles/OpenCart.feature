@@ -4,7 +4,7 @@ Feature: Test openCart application
   Scenario: Test Registeration process for new user
     Given Open Register application
     When user enter all required fields
-      | fname  | lname  | email            | telephone | password | cpassword |
+      | fname  | lname  | email              | telephone | password | cpassword |
       | Suresh | Sharma | suresh25@gmail.com | 987766555 | test123  | test123   |
     When User click on yes radio button
     When User check the privacy policy checkbox

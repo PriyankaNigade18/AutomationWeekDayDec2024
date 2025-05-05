@@ -7,7 +7,8 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features="src/test/resources/FeatureFiles/Hrm.feature",//path of feature file
-					glue="com.stepdef")//package name
+					glue="com.stepdef",
+					publish=true)//package name
 public class HRMRunner {
 
 }
