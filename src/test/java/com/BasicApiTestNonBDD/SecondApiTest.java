@@ -50,16 +50,12 @@ public class SecondApiTest {
 	  
 	  
 	  //first_name=Janet
-	  
-	  String fname=res.jsonPath().getString("data.first_name");	  
+	   String fname=res.jsonPath().getString("data.first_name");	  
 	  
 	  Assert.assertEquals(fname,"Janet");
 	  System.out.println("First name is matched...."+fname);
 	  
-	  
-	  
-	  
-	  
+	  	  
 	  
   }
 }
