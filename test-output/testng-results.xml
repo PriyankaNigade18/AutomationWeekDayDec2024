@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-03T09:26:50 IST" name="Default suite" finished-at="2025-06-03T09:26:52 IST" duration-ms="1959">
+  <suite started-at="2025-06-04T09:09:56 IST" name="Default suite" finished-at="2025-06-04T09:09:57 IST" duration-ms="1869">
     <groups>
     </groups>
-    <test started-at="2025-06-03T09:26:50 IST" name="Default test" finished-at="2025-06-03T09:26:52 IST" duration-ms="1959">
-      <class name="com.RestAPITestBDD.FirstBDDRequest">
-        <test-method signature="listOfUsers()[pri:0, instance:com.RestAPITestBDD.FirstBDDRequest@6069db50]" started-at="2025-06-03T09:26:50 IST" name="listOfUsers" finished-at="2025-06-03T09:26:52 IST" duration-ms="1904" status="PASS">
+    <test started-at="2025-06-04T09:09:56 IST" name="Default test" finished-at="2025-06-04T09:09:57 IST" duration-ms="1869">
+      <class name="com.RestAPITestBDD.JSONPayloadWays">
+        <test-method signature="usingJsonFile()[pri:0, instance:com.RestAPITestBDD.JSONPayloadWays@1b7cc17c]" started-at="2025-06-04T09:09:56 IST" name="usingJsonFile" finished-at="2025-06-04T09:09:57 IST" duration-ms="1824" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- listOfUsers -->
-      </class> <!-- com.RestAPITestBDD.FirstBDDRequest -->
+        </test-method> <!-- usingJsonFile -->
+      </class> <!-- com.RestAPITestBDD.JSONPayloadWays -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
