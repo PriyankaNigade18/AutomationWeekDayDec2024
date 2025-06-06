@@ -1,41 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-05T09:34:52 IST" name="Default suite" finished-at="2025-06-05T09:35:02 IST" duration-ms="10036">
+  <suite started-at="2025-06-06T09:23:07 IST" name="Default suite" finished-at="2025-06-06T09:23:08 IST" duration-ms="222">
     <groups>
     </groups>
-    <test started-at="2025-06-05T09:34:52 IST" name="Default test" finished-at="2025-06-05T09:35:02 IST" duration-ms="10036">
-      <class name="com.RestAPITestBDD.HotelBookingAPIChaining">
-        <test-method signature="createBooking()[pri:1, instance:com.RestAPITestBDD.HotelBookingAPIChaining@1b7cc17c]" started-at="2025-06-05T09:34:52 IST" name="createBooking" finished-at="2025-06-05T09:34:55 IST" duration-ms="3227" status="PASS">
+    <test started-at="2025-06-06T09:23:07 IST" name="Default test" finished-at="2025-06-06T09:23:08 IST" duration-ms="222">
+      <class name="com.RestAPITestBDD.TestSerializationdeserialization">
+        <test-method signature="testDeserialization()[pri:0, instance:com.RestAPITestBDD.TestSerializationdeserialization@747ddf94]" started-at="2025-06-06T09:23:07 IST" name="testDeserialization" finished-at="2025-06-06T09:23:08 IST" duration-ms="175" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createBooking -->
-        <test-method signature="getBookingdetails()[pri:2, instance:com.RestAPITestBDD.HotelBookingAPIChaining@1b7cc17c]" started-at="2025-06-05T09:34:55 IST" name="getBookingdetails" finished-at="2025-06-05T09:34:57 IST" depends-on-methods="com.RestAPITestBDD.HotelBookingAPIChaining.createBooking" duration-ms="1183" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getBookingdetails -->
-        <test-method signature="createToken()[pri:3, instance:com.RestAPITestBDD.HotelBookingAPIChaining@1b7cc17c]" started-at="2025-06-05T09:34:57 IST" name="createToken" finished-at="2025-06-05T09:34:58 IST" duration-ms="1047" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createToken -->
-        <test-method signature="fullBookingUpdate()[pri:4, instance:com.RestAPITestBDD.HotelBookingAPIChaining@1b7cc17c]" started-at="2025-06-05T09:34:58 IST" name="fullBookingUpdate" finished-at="2025-06-05T09:34:59 IST" duration-ms="1071" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- fullBookingUpdate -->
-        <test-method signature="partialUpdate()[pri:5, instance:com.RestAPITestBDD.HotelBookingAPIChaining@1b7cc17c]" started-at="2025-06-05T09:34:59 IST" name="partialUpdate" finished-at="2025-06-05T09:35:00 IST" duration-ms="1219" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- partialUpdate -->
-        <test-method signature="getUpdatedBookingdetails()[pri:6, instance:com.RestAPITestBDD.HotelBookingAPIChaining@1b7cc17c]" started-at="2025-06-05T09:35:00 IST" name="getUpdatedBookingdetails" finished-at="2025-06-05T09:35:01 IST" duration-ms="1068" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getUpdatedBookingdetails -->
-        <test-method signature="deleteBooking()[pri:7, instance:com.RestAPITestBDD.HotelBookingAPIChaining@1b7cc17c]" started-at="2025-06-05T09:35:01 IST" name="deleteBooking" finished-at="2025-06-05T09:35:02 IST" duration-ms="1148" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteBooking -->
-      </class> <!-- com.RestAPITestBDD.HotelBookingAPIChaining -->
+        </test-method> <!-- testDeserialization -->
+      </class> <!-- com.RestAPITestBDD.TestSerializationdeserialization -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
