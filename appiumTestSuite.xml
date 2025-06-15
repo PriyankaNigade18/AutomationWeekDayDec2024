@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<!--<listener class-name="com.testlisteners.ExtentITestNGListeners"></listener>-->
+<listener class-name="com.aventstack.chaintest.plugins.ChainTestListener"></listener>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.AppTesting.MobileScenarios.LongClickGestureTest"/>
+      
+      <class name="com.AppTesting.MobileScenarios.ScrollGestureTest"/>
+      
+      <class name="com.AppTesting.MobileScenarios.DragGestureTest"/>
+     
+      <class name="com.AppTesting.MobileScenarios.SwipeGestureTest"/>
+         
+      <class name="com.AppTesting.MobileScenarios.ClickGestureTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

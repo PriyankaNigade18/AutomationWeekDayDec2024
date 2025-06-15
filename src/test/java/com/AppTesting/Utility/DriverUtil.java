@@ -24,6 +24,8 @@ public class DriverUtil
 		  String path=System.getProperty("user.dir")+"//src//test//resources//ApiDemos-debug.apk";
 		  options.setCapability("appium:app",path);
 		  
+		  options.setCapability("appium:ignoreHiddenApiPolicyError",true);
+		  
 		  //server address
 		  URL url;
 		try {

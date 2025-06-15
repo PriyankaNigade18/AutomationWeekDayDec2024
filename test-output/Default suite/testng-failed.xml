@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.AppTesting.Utility.ClickGestureTest">
+      <class name="com.AppTesting.MobileScenarios.LongClickGestureTest">
         <methods>
-          <include name="testClickGesture"/>
+          <include name="testGesture"/>
         </methods>
-      </class> <!-- com.AppTesting.Utility.ClickGestureTest -->
+      </class> <!-- com.AppTesting.MobileScenarios.LongClickGestureTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
